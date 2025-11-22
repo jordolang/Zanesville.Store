@@ -7,14 +7,15 @@ import GenderDropdown from "./GenderDropdown";
 import SizeDropdown from "./SizeDropdown";
 import ColorsDropdwon from "./ColorsDropdwon";
 import PriceDropdown from "./PriceDropdown";
-import shopData from "../Shop/shopData";
 import SingleGridItem from "../Shop/SingleGridItem";
 import SingleListItem from "../Shop/SingleListItem";
+import type { Product } from "@/types/product";
 
 const ShopWithSidebar = () => {
   const [productStyle, setProductStyle] = useState("grid");
   const [productSidebar, setProductSidebar] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const [products, setProducts] = useState<Product[]>([]);
 
   const handleStickyMenu = () => {
     if (window.scrollY >= 80) {
@@ -23,6 +24,28 @@ const ShopWithSidebar = () => {
       setStickyMenu(false);
     }
   };
+
+  useEffect(() => {
+    let isMounted = true;
+    const loadProducts = async () => {
+      try {
+        const response = await fetch("/api/products?take=48");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (isMounted) {
+          setProducts(data);
+        }
+      } catch (error) {
+        console.error("Failed to load products", error);
+      }
+    };
+
+    loadProducts();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const options = [
     { label: "Latest Products", value: "0" },
@@ -278,11 +301,11 @@ const ShopWithSidebar = () => {
                     : "flex flex-col gap-7.5"
                 }`}
               >
-                {shopData.map((item, key) =>
+                {products.map((item) =>
                   productStyle === "grid" ? (
-                    <SingleGridItem item={item} key={key} />
+                    <SingleGridItem item={item} key={item.id} />
                   ) : (
-                    <SingleListItem item={item} key={key} />
+                    <SingleListItem item={item} key={item.id} />
                   )
                 )}
               </div>

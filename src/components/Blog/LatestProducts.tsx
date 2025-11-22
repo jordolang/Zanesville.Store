@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Product } from "@/types/product";
 
-const LatestProducts = ({ products }) => {
+const LatestProducts = ({ products }: { products: Product[] }) => {
   return (
     <div className="shadow-1 bg-white rounded-xl mt-7.5">
       <div className="px-4 sm:px-6 py-4.5 border-b border-gray-3">

@@ -1,21 +1,44 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Breadcrumb from "../Common/Breadcrumb";
 
 import SingleGridItem from "../Shop/SingleGridItem";
 import SingleListItem from "../Shop/SingleListItem";
 import CustomSelect from "../ShopWithSidebar/CustomSelect";
 
-import shopData from "../Shop/shopData";
+import type { Product } from "@/types/product";
 
 const ShopWithoutSidebar = () => {
   const [productStyle, setProductStyle] = useState("grid");
+  const [products, setProducts] = useState<Product[]>([]);
 
   const options = [
     { label: "Latest Products", value: "0" },
     { label: "Best Selling", value: "1" },
     { label: "Old Products", value: "2" },
   ];
+
+  useEffect(() => {
+    let isMounted = true;
+    const loadProducts = async () => {
+      try {
+        const response = await fetch("/api/products?take=48");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (isMounted) {
+          setProducts(data);
+        }
+      } catch (error) {
+        console.error("Failed to load products", error);
+      }
+    };
+
+    loadProducts();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   return (
     <>
@@ -129,11 +152,11 @@ const ShopWithoutSidebar = () => {
                     : "flex flex-col gap-7.5"
                 }`}
               >
-                {shopData.map((item, key) =>
+                {products.map((item) =>
                   productStyle === "grid" ? (
-                    <SingleGridItem item={item} key={key} />
+                    <SingleGridItem item={item} key={item.id} />
                   ) : (
-                    <SingleListItem item={item} key={key} />
+                    <SingleListItem item={item} key={item.id} />
                   )
                 )}
               </div>

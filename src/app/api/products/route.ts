@@ -1,24 +1,18 @@
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import { getProducts } from "@/lib/productCatalog";
 
-export async function GET() {
-  const products = await prisma.product.findMany({
-    include: { category: true },
-    orderBy: { createdAt: "desc" },
-    take: 24,
-  });
+const MAX_PRODUCTS = 200;
 
-  return NextResponse.json(
-    products.map((product) => ({
-      id: product.id,
-      title: product.title,
-      reviews: product.reviews,
-      price: product.price,
-      discountedPrice: product.discountedPrice,
-      category: product.category?.name ?? null,
-      thumbnailUrls: product.thumbnailUrls,
-      previewUrls: product.previewUrls,
-      createdAt: product.createdAt,
-    }))
-  );
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const takeParam = searchParams.get("take");
+  const take = takeParam ? Number.parseInt(takeParam, 10) : undefined;
+  const safeTake =
+    typeof take === "number" && Number.isFinite(take)
+      ? Math.min(Math.max(take, 1), MAX_PRODUCTS)
+      : undefined;
+
+  const products = await getProducts({ take: safeTake });
+
+  return NextResponse.json(products);
 }

@@ -23,3 +23,16 @@ While NextMerce Pro features advanced functionalities, seamless integration, and
 #### [🚀 Live Demo](https://demo.nextmerce.com/)
 
 #### [🌐 Visit Website](https://nextmerce.com/)
+
+## Local Product Inventory
+
+This fork ships with the `facebook_inventory_detailed.csv` catalog wired into Prisma. The SQLite database (`prisma/zanesville-store.db`) is generated from that CSV and committed so you can browse the inventory immediately in `npm run dev`.
+
+To rebuild the catalog from the CSV (or a refreshed export):
+
+1. Copy `.env.example` to `.env.local` – the default `DATABASE_URL="file:./zanesville-store.db"` already points at `prisma/zanesville-store.db`.
+2. Install dependencies with `npm install`.
+3. Run `npm run db:push` to sync the schema (recreates the SQLite file if needed).
+4. Run `npm run db:seed` (or `FACEBOOK_INVENTORY_PATH=/path/to/facebook_inventory_detailed.csv npm run db:seed`) to import the CSV rows.
+
+The product API (`/api/products`) and every UI grid now renders straight from Prisma, so updating the CSV + re-seeding automatically refreshes the storefront.

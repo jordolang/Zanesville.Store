@@ -1,9 +1,9 @@
 "use client";
-import React from "react";
-import shopData from "@/components/Shop/shopData";
+import React, { useEffect, useState } from "react";
 import ProductItem from "@/components/Common/ProductItem";
 import Image from "next/image";
 import Link from "next/link";
+import type { Product } from "@/types/product";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useCallback, useRef } from "react";
@@ -12,6 +12,29 @@ import "swiper/css";
 
 const RecentlyViewdItems = () => {
   const sliderRef = useRef(null);
+  const [products, setProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    let isMounted = true;
+    const loadProducts = async () => {
+      try {
+        const response = await fetch("/api/products?take=12");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (isMounted) {
+          setProducts(data);
+        }
+      } catch (error) {
+        console.error("Failed to load products", error);
+      }
+    };
+
+    loadProducts();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const handlePrev = useCallback(() => {
     if (!sliderRef.current) return;
@@ -89,8 +112,8 @@ const RecentlyViewdItems = () => {
             spaceBetween={20}
             className="justify-between"
           >
-            {shopData.map((item, key) => (
-              <SwiperSlide key={key}>
+            {products.map((item) => (
+              <SwiperSlide key={item.id}>
                 <ProductItem item={item} />
               </SwiperSlide>
             ))}

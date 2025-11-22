@@ -5,12 +5,11 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
@@ -29,10 +28,10 @@ model Product {
   slug            String    @unique
   description     String?
   reviews         Int       @default(0)
-  price           Decimal   @db.Decimal(10, 2)
-  discountedPrice Decimal?  @db.Decimal(10, 2)
-  thumbnailUrls   String[]
-  previewUrls     String[]
+  price           Decimal
+  discountedPrice Decimal?
+  thumbnailUrls   Json
+  previewUrls     Json
   category        Category? @relation(fields: [categoryId], references: [id])
   categoryId      Int?
   createdAt       DateTime  @default(now())

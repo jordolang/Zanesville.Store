@@ -5,9 +5,10 @@ import LatestPosts from "../Blog/LatestPosts";
 import LatestProducts from "../Blog/LatestProducts";
 import blogData from "../BlogGrid/blogData";
 import Image from "next/image";
-import shopData from "../Shop/shopData"; 
+import { getProducts } from "@/lib/productCatalog";
 
-const BlogDetailsWithSidebar = () => {
+const BlogDetailsWithSidebar = async () => {
+  const products = await getProducts({ take: 3 });
   return (
     <>
       <Breadcrumb
@@ -272,7 +273,7 @@ const BlogDetailsWithSidebar = () => {
               <LatestPosts blogs={blogData} />
 
               {/* <!-- Latest Products box --> */}
-              <LatestProducts products={shopData} />
+              <LatestProducts products={products} />
 
               {/* <!-- Popular Category box --> */}
               <div className="shadow-1 bg-white rounded-xl mt-7.5">

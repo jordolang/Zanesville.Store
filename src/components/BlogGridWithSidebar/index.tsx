@@ -6,9 +6,10 @@ import SearchForm from "../Blog/SearchForm";
 import LatestPosts from "../Blog/LatestPosts";
 import LatestProducts from "../Blog/LatestProducts";
 import Categories from "../Blog/Categories";
-import shopData from "../Shop/shopData"; 
+import { getProducts } from "@/lib/productCatalog";
  
-const BlogGridWithSidebar = () => {
+const BlogGridWithSidebar = async () => {
+  const products = await getProducts({ take: 3 });
   const categories = [
     {
       name: "Desktop",
@@ -179,7 +180,7 @@ const BlogGridWithSidebar = () => {
               <LatestPosts blogs={blogData} />
 
               {/* <!-- Latest Products box --> */}
-              <LatestProducts products={shopData} />
+              <LatestProducts products={products} />
 
               {/* <!-- Popular Category box --> */}
               <Categories categories={categories} />

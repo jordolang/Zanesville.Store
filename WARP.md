@@ -46,7 +46,7 @@ Components are organized by feature/page:
 
 Each page component typically contains:
 - Main `index.tsx` component
-- Associated data files (e.g., `shopData.ts`, `blogData.ts`)
+- Associated data files (e.g., `blogData.ts` for blog content). Product inventory is streamed from Prisma via `src/lib/productCatalog.ts`.
 - Sub-components in nested folders
 
 #### State Management (`src/redux/`)
@@ -72,11 +72,11 @@ React Context for UI state:
 - `Menu.ts` - Navigation menu types
 
 #### Data Structure
-Static product/content data stored in component-specific files:
-- `src/components/Shop/shopData.ts` - Product catalog
+Static content data stored in component-specific files:
 - `src/components/BlogGrid/blogData.ts` - Blog posts
 - `src/components/Home/Categories/categoryData.ts` - Category data
 - `src/components/Header/menuData.ts` - Navigation structure
+- Product data now lives inside the SQLite Prisma database and is fetched through `src/lib/productCatalog.ts`.
 
 ### Styling System
 
@@ -98,7 +98,7 @@ Custom design system with:
 3. **Modal System**: Three global modals managed via context (cart sidebar, quick view, image preview)
 4. **Product Images**: Each product has `thumbnails[]` and `previews[]` arrays
 5. **Preloader**: 1-second loading screen on initial mount
-6. **Static Data**: All products, blogs, categories are hardcoded - no API calls
+6. **Static Data**: Blogs and categories are hardcoded, but products now come from Prisma via `/api/products`.
 
 ## Code Style Guidelines
 
@@ -121,9 +121,9 @@ Custom design system with:
 ## Adding New Features
 
 ### Adding Products
-1. Add product data to `src/components/Shop/shopData.ts`
-2. Ensure images exist in `/public/images/products/`
-3. Follow Product type structure with thumbnails and previews
+1. Update/replace the CSV used by `prisma/seed.ts` (default: `Zanesville-store-lists/facebook_inventory_detailed.csv`).
+2. Run `npm run db:seed` (or `DATABASE_URL="file:./zanesville-store.db" npx prisma db seed`) to regenerate `prisma/zanesville-store.db`.
+3. Ensure any new image hosts are allowed in `next.config.js` or add fallback images in `/public/images/products/`.
 
 ### Adding Pages
 1. Create page in `src/app/(site)/(pages)/[page-name]/page.tsx`
@@ -142,8 +142,8 @@ Custom design system with:
 
 ## Important Notes
 
-- **No Backend**: This is a static template - auth, checkout, and account features are UI-only
-- **No Database**: All data is hardcoded in TypeScript files
-- **Image Paths**: Images use absolute paths from `/public/` (e.g., `/images/products/...`)
+- **No Backend**: Auth, checkout, and account flows remain UI-only; product data is the only live source via Prisma.
+- **Database**: SQLite file (`prisma/zanesville-store.db`) seeded from `facebook_inventory_detailed.csv`.
+- **Image Paths**: Images use absolute paths from `/public/` (e.g., `/images/products/...`) unless loaded remotely via Next Image remote patterns.
 - **ESLint Config**: Uses Next.js core web vitals preset
 - **TypeScript Strict Mode**: Disabled - be cautious with typing
