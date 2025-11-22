@@ -1,0 +1,129 @@
+{
+  "invoice_id": "092024-3501-190109",
+  "auction_date": "2024-09-20",
+  "total_balance": 25.67,
+  "items": [
+    {
+      "stock_number": "370",
+      "item": "FAYEAN Metal Headboard, Full Size",
+      "total": 2.45,
+      "msrp": 79.99,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "General Merchandise",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "380",
+      "item": "Tempered Glass Chair Mat",
+      "total": 4.89,
+      "msrp": 79.99,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "Home & Garden",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "404",
+      "item": "A-Premium Engine Water Pump WP51040TH-C",
+      "total": 1.22,
+      "msrp": 79.99,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "Automotive",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "465",
+      "item": "The Door Bull Modern Yet Classic Style Bathroom Vanity",
+      "total": 2.45,
+      "msrp": 79.99,
+      "description": [
+        "Light Fixture - Bathroom Lighting Fixtures Over Mirror - Bath Vanity Light Bar - Contemporary Interior Lights with Frosted Glass Shade Item Qty Bid Amount Premium Fee Tax Total MODERN AND ELEGANT DESIGN: Our lovely bathroom vanity lights are ideal for your other rooms and have an attractive appearance",
+        "With its classic contemporary style, the stylish 4-light vanity fixture illuminates any space",
+        "Our frosted shades are certainly easier on your eyes PERFECT SIZE: The vanity light fixture measures 32\u201d in width, 8",
+        "5\u201d in height, and 7\u201d in depth",
+        "Requires three 100W (or equivalent) Type A light bulbs (LED, CFL, Halogen, or Incandescent) \u2013 not included EASY TO INSTALL: The package contains all the hardware required for installation; all you need to do is connect the wire and assemble your vanity bathroom light fixtures, which takes only a few minutes WIDE APPLICATION: Depending on your needs, It is a great multi-use light that is perfect for your bathroom, dressing table, mirror cabinets, vanity table and art display etc",
+        "It is ideal for bright illumination of bathroom, foyers, corridor or aisle"
+      ],
+      "category": "Home & Garden",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "473",
+      "item": "Mystery Item",
+      "total": 7.34,
+      "msrp": 0.0,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "General Merchandise",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "490",
+      "item": "Cordless Cellular Shades 34\"W x 64\"H Grey Leaves",
+      "total": 1.22,
+      "msrp": 0.0,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "General Merchandise",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "496",
+      "item": "Cordless Roller Shade",
+      "total": 2.45,
+      "msrp": 0.0,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "Sports & Recreation",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "517",
+      "item": "Aluminum Partition Rail",
+      "total": 2.45,
+      "msrp": 0.0,
+      "description": [
+        "Item Qty Bid Amount Premium Fee Tax Total"
+      ],
+      "category": "Automotive",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    },
+    {
+      "stock_number": "598",
+      "item": "Mat for Pilates, Medidation (Blue)",
+      "total": 1.22,
+      "msrp": 0.0,
+      "description": [
+        "No additional description provided in the invoice."
+      ],
+      "category": "General Merchandise",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    }
+  ]
+}

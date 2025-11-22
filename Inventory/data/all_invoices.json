@@ -1,0 +1,111 @@
+[
+  {
+    "invoice_id": "INV-2024-001",
+    "auction_date": "2024-01-15",
+    "items": [
+      {
+        "stock_number": "ST001",
+        "item": "Wireless Bluetooth Headphones",
+        "category": "Electronics",
+        "condition": "New",
+        "description": ["Wireless Bluetooth Headphones"],
+        "total": 89.99,
+        "msrp": 149.99,
+        "sales_price": 89.99,
+        "image_urls": ["/placeholder-item.jpg"]
+      },
+      {
+        "stock_number": "ST002",
+        "item": "Smartphone Case",
+        "category": "Electronics",
+        "condition": "Used",
+        "description": ["Smartphone Case"],
+        "total": 15.50,
+        "msrp": 29.99,
+        "sales_price": 15.50,
+        "image_urls": ["/placeholder-item.jpg"]
+      }
+    ],
+    "total_balance": 105.49
+  },
+  {
+    "invoice_id": "INV-2024-002",
+    "auction_date": "2024-01-20",
+    "items": [
+      {
+        "stock_number": "ST003",
+        "item": "Indoor Plant Pot Set",
+        "category": "Home & Garden",
+        "condition": "New",
+        "description": ["Indoor Plant Pot Set"],
+        "total": 45.00,
+        "msrp": 65.00,
+        "sales_price": 45.00,
+        "image_urls": ["/placeholder-item.jpg"]
+      },
+      {
+        "stock_number": "ST004",
+        "item": "LED Table Lamp",
+        "category": "Home & Garden",
+        "condition": "Refurbished",
+        "description": ["LED Table Lamp"],
+        "total": 32.99,
+        "msrp": 59.99,
+        "sales_price": 32.99,
+        "image_urls": ["/placeholder-item.jpg"]
+      },
+      {
+        "stock_number": "ST005",
+        "item": "Programming Guide Collection",
+        "category": "Books",
+        "condition": "Used",
+        "description": ["Programming Guide Collection"],
+        "total": 25.99,
+        "msrp": 89.99,
+        "sales_price": 25.99,
+        "image_urls": ["/placeholder-item.jpg"]
+      }
+    ],
+    "total_balance": 103.98
+  },
+  {
+    "invoice_id": "INV-2024-003",
+    "auction_date": "2024-01-25",
+    "items": [
+      {
+        "stock_number": "ST006",
+        "item": "Winter Jacket",
+        "category": "Clothing",
+        "condition": "New",
+        "description": ["Winter Jacket"],
+        "total": 120.00,
+        "msrp": 199.99,
+        "sales_price": 120.00,
+        "image_urls": ["/placeholder-item.jpg"]
+      },
+      {
+        "stock_number": "ST007",
+        "item": "Cordless Drill Kit",
+        "category": "Tools",
+        "condition": "Used",
+        "description": ["Cordless Drill Kit"],
+        "total": 85.00,
+        "msrp": 149.99,
+        "sales_price": 85.00,
+        "image_urls": ["/placeholder-item.jpg"]
+      },
+      {
+        "stock_number": "ST008",
+        "item": "Basketball",
+        "category": "Sporting Goods",
+        "condition": "New",
+        "description": ["Basketball"],
+        "total": 19.99,
+        "msrp": 39.99,
+        "sales_price": 19.99,
+        "image_urls": ["/placeholder-item.jpg"]
+      }
+    ],
+    "total_balance": 224.99
+  }
+]

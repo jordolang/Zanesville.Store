@@ -1,0 +1,36 @@
+{
+  "invoice_id": "072624-3501-181811",
+  "auction_date": "2024-07-26",
+  "total_balance": 14.67,
+  "items": [
+    {
+      "stock_number": "103",
+      "item": "SwitchBot Automatic Curtain Opener - Bluetooth Remote",
+      "total": 3.67,
+      "msrp": 0.0,
+      "description": [
+        "Control Smart Curtain with App/Timer, Upgraded High- Performance Motor, Add SwitchBot Hub to Work with Alexa, Google Home, HomeKit Simply Attach and You're Ready to Go: Upgrade your curtains effortlessly, no changes or tools needed",
+        "Hang it up, install the positioning magnets, and connect to our app",
+        "3 simple steps for smart curtains in any room",
+        "Suitable for bedrooms, living rooms, offices, baby rooms, and more",
+        "Twice as Strong, Now More Accurate: Curtain 3 (Rod) offers over twice the thrust compared to the previous gen, and our all-new upgraded motor ensures smooth operation even on heavy curtains (up to 15KG), perfect for thick curtain materials",
+        "Now comes with a positioning magnet to ensure precise control, eliminating the need for repeated calibration and prevents light leakage",
+        "When using an extendable rod please note if the diameter of the extendable area of your rod is less than 5/8 inch this device will not be compatible",
+        "Less Noise with Silent Mode: Our smart curtains include a Silent Mode to enable your device motor to operat below 25dB, allowing your curtains to drift slower and quieter to remove disturbances, great for waking up in the morning and perfect for those with sleep disorders or people who are sensitive to sound",
+        "This environmentally friendly device is easy to use, saves electricity, and conserves energy",
+        "Multiple Control Methods: Use our app to manage curtain opening, closing, and open percentage",
+        "Set custom schedules for fully automated curtains",
+        "With SwitchBot Hub, you can also use voice commands via Alexa, Google Home, SmartThings, Siri Shortcuts, and IFTTT all from your sofa",
+        "\u203bIf your curtains open in the middle you need two units",
+        "Supports Matter: With SwitchBot Hub 2 (sold separately), Curtain 3 supports Matter and can be integrated with Apple HomeKit",
+        "Control your curtains via the Home App or using your HomePod/Apple Watch",
+        "You can also use with other SwitchBot devices for better automation and scene control",
+        "\u203bIf your curtains open in the middle you need two units"
+      ],
+      "category": "Home & Garden",
+      "condition": "NEW",
+      "image_urls": [],
+      "sales_price": 0.0
+    }
+  ]
+}

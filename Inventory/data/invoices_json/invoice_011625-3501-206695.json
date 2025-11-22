@@ -1,0 +1,21 @@
+{
+    "invoice_id": "011625-3501-206695",
+    "auction_date": "2025-01-16",
+    "total_balance": 4.89,
+    "items": [{
+        "stock_number": "237",
+        "item": "Enbrighten Dimmable Motion-Sensing/Touch-Activated LED",
+        "total": 4.89,
+        "msrp": 22.97,
+        "description": [
+            "Light Premium task light - enjoy the future of home lighting with this fully dimmable, ultra-bright light - perfect as a wall sconce, cabinet light, handheld utility light and more Motion and touch activated - use the on/auto/off button with a simple touch, choosing between constant illumination or motion activation Effortless installation - mount your task light with the included screws and anchors for permanent placement, attach it to any metallic surface with the built-in magnet backing or set it anywhere using the kickstand Wire-free operation - powered by 6 AA batteries (not included), this product keeps things simple by eliminating any need for complicated wiring - it also saves energy by deactivating after 60-minute in the on setting"
+        ],
+        "category": "Tools & Hardware",
+        "condition": "NEW",
+        "image_urls": [
+            "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15354059/237-a086eb34-5a6f-4064-8a4e-9ad939a503b1.jpg",
+            "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15354059/237_1-e84666f7-7325-44b1-ad5f-87e4fa45b4c7.jpg"
+        ],
+        "sales_price": 15.00
+    }]
+}

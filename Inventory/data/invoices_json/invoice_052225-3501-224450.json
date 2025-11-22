@@ -1,0 +1,83 @@
+{
+    "invoice_id": "052225-3501-224450",
+    "auction_date": "2025-05-22",
+    "total_balance": 30.57,
+    "items": [{
+            "stock_number": "614",
+            "item": "Philips Sonicare 9300 DiamondClean Smart Electric,",
+            "total": 17.12,
+            "msrp": 229.99,
+            "description": [
+                "Rechargeable Toothbrush for Complete Oral Care Advanced sonic toothbrush for improved oral health: up to 20x more plaque removal vs",
+                "a manual toothbrush, up to 15x healthier gums, and up to 100% less stains. Personalize your brushing with this innovative electric toothbrush : choose from 4 brushing modes and 3 intensity levels to meet your oral healthcare goals Real-time feedback: the light ring on the end of your handle will flash if you use too much pressure, reminding you to ease off the pressure and protect your teeth and gums Personalized guidance: connect your toothbrush to the Philips Sonicare app and receive personalized brushing guidance to maintain and improve your brushing habits"
+            ],
+            "category": "Tools & Hardware",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15445211/614-db7c61b2-f4e4-43e2-823b-c20101b84581.jpg"],
+            "sales_price": 180.00
+        },
+        {
+            "stock_number": "634",
+            "item": "Norelco Philips Multigroom 7000 Series, All-in-One Trimmer,",
+            "total": 7.35,
+            "msrp": 64.96,
+            "description": [
+                "Beard Trimmer and Hair Clipper, 19-Piece Men's Grooming Kit for Beard, Head, Hair, Body, and Face, Soft Pouch. All-in-one men's grooming kit: electric trimmer for face, head and body styling with 19 pieces including combs for beard trimmer, body grooming, hair clipping , nose and ear trimming for men The precision trimming comb allows you to select length settings in 0",
+                "2mm steps from 1 to 3mm for a precise trim; the 3-7mm adjustable comb provides even more grooming options for a customized look The BeardSense technology scans beard density 125x per second and boosts power exactly when you need it to easily tackle dense, bushy, or long beards Stainless-steel self-sharpening blades remain sharp as day one for long-lasting performance and require no oiling; a reliable solution for your everyday trimming routine 100% showerproof: the trimmer is water resistant, so you can use it comfortably in the shower and clean it easily under the tap The steel frame and rubber grips deliver superior control and the long-lasting lithium-ion battery provides up to 5 hours of runtime for long life and maximum power The grease found as you remove the trimmer head is there to ensure consistent trimming performance over time, so you\u2019ll have a trim that\u2019s as smooth as day one The set includes: 1x Multigroom handle and a set of attachments and combs for face, head and body trimming - see the what's in the box section; 1x USB-A charging cable (power adapter not included)"
+            ],
+            "category": "Health & Beauty",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15445231/634-6ca5ad9a-ac2e-449c-9745-25280e5c6be4.jpg"],
+            "sales_price": 50.00
+        },
+        {
+            "stock_number": "684",
+            "item": "Collectible Memories Porcelain Doll, Allison",
+            "total": 1.22,
+            "msrp": 7.99,
+            "description": [
+                "Porcelain Doll, Bitchass Allison."
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15445666/684-f227456a-4695-4de4-9588-15fdc5bf2b2d.jpg"],
+            "sales_price": 5.00
+        },
+        {
+            "stock_number": "692",
+            "item": "Velaco 2 PACK 2-in-1 Watermelon Cutter and Fork, 9.5 Inch",
+            "total": 2.45,
+            "msrp": 7.99,
+            "description": [
+                "Stainless Steel Fruit Cutter Slicer Tool 2-in-1 Watermelon Slicer. These watermelon fork slicers adopt a 2-in-1 design, combining a fork and a slicer into one tool",
+                "This multi-functional device can be used as a watermelon knife to cut the fruit into small cubes, and also as a fork, allowing you to easily enjoy the watermelon",
+                "With this watermelon slicer cutter, you won't have to worry about spilling watermelon juices everywhere",
+                "Easy To Use. The watermelon cutter slicer tool is easy to use - a slight push cuts the fruit into cubed pieces",
+                "The fork on the other side can then be used to easily remove the watermelon cubes and place them on a plate",
+                "This small, lightweight, and portable tool is suitable for home, outdoor camping, or parties",
+                "2 PACK Stainless Steel Fruit Cutter. The watermelon fork slicer is made of durable 304 stainless steel, ensuring it is rustproof and resistant to damage",
+                "The square blade is not sharp, preventing hand injuries",
+                "The polished stainless steel handle features a round fork head for easy grip and handling",
+                "Versatile Fruit Cutter. This watermelon cutter slicer can be used to slice not just watermelon, but also other fruits like mango and pear",
+                "It's perfect for family gatherings, picnics, and creating delicious fruit salads and platters"
+            ],
+            "category": "Home & Garden",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15445674/692-aea0481b-ad87-4407-a343-839b41a0f5f5.jpg"],
+            "sales_price": 5.00
+        },
+        {
+            "stock_number": "695",
+            "item": "LG LK65C Automatic Ice Maker Kit",
+            "total": 2.45,
+            "msrp": 149.0,
+            "description": [
+                "Automatic ice maker kit for LTCS20020W, LTCS20020. Interchangeable with LG LK60C Ice Maker"
+            ],
+            "category": "Automotive",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15445677/695-9bd5726b-ac54-48e4-882b-bd44ff13a132.jpg"],
+            "sales_price": 100.00
+        }
+    ]
+}

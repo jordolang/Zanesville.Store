@@ -1,0 +1,32 @@
+{
+    "invoice_id": "021925-3501-211566",
+    "auction_date": "2025-02-19",
+    "total_balance": 20.78,
+    "items": [{
+            "stock_number": "468",
+            "item": "Cycling Shorts Size XL",
+            "total": 2.45,
+            "msrp": 0.0,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["ttps://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15377052/468-a297afaa-0348-456b-968a-775c867b7e3a.jpg"],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "527",
+            "item": "Wi-Fi Camera",
+            "total": 18.34,
+            "msrp": 0.0,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "Electronics & Technology",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15377645/527-eed3b0d9-8cf3-4152-bab5-15d608591f28.jpg"],
+            "sales_price": 10.00
+        }
+    ]
+}

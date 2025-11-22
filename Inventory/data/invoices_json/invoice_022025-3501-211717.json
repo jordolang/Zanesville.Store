@@ -1,0 +1,60 @@
+{
+    "invoice_id": "022025-3501-211717",
+    "auction_date": "2025-02-20",
+    "total_balance": 13.45,
+    "items": [{
+            "stock_number": "514",
+            "item": "Gray Top, Size XL",
+            "total": 2.45,
+            "msrp": 14.99,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15377952/514-f23bd1db-195c-4f96-b0ab-99908972ad1e.jpg"],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "520",
+            "item": "Mystery Clothing Item, Size XL",
+            "total": 2.45,
+            "msrp": 14.99,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "Clothing & Accessories",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15377958/520-d122db83-0d53-483f-b502-bab61da20b63.jpg"],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "556",
+            "item": "REMBRANDT Intense Stain Whitening Toothpaste With",
+            "total": 6.11,
+            "msrp": 14.99,
+            "description": [
+                "Fluoride, Removes Tough Stains, Rehardens And Strengthens Enamel, 3",
+                "5 Ounce - (Pack of 2) Includes: 2-3",
+                "5 oz Tube of REMBRANDT Intense Stain Whitening Toothpaste Formulated: Our special formula contains micro-polishers, stain fighters, and fluoride to fight tough stains like red wine, berries, coffee, and tobacco without damaging your teeth Instructions: This safe for daily-use whitening toothpaste contains fluoride to help strengthen and restore enamel Flavor: Enjoy the delicious, refreshing mint flavor while you polish away years of tough stains Whiter Teeth in 3 Days Based on in vitro laboratory testing Item Qty Bid Amount Premium Fee Tax Total"
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15377994/556-e4c3371b-1741-44f3-99c2-8edfe7063677.jpg"],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "623",
+            "item": "Mystery Clothing Item, Size XL",
+            "total": 2.45,
+            "msrp": 0.0,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "Clothing & Accessories",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15378398/623-f32db8bf-6c87-4a81-8b34-a63ee26ce938.jpg"],
+            "sales_price": 10.00
+        }
+    ]
+}

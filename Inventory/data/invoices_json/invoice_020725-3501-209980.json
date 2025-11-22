@@ -1,0 +1,97 @@
+{
+    "invoice_id": "020725-3501-209980",
+    "auction_date": "2025-02-07",
+    "total_balance": 300.77,
+    "items": [{
+            "stock_number": "201",
+            "item": "NINESTARS Automatic Touchless Motion Sensor Trash Can",
+            "total": 26.9,
+            "msrp": 69.98,
+            "description": [
+                "Rectangular Trash Can, 13 Gal, Black Trim \u3010High Quality Materials\u3011Water-resistant infrared motion sensor prevents moisture or any accidental spills from damaging the unit",
+                "Plust finger-print resistant stainless steel base helps keep the can clean",
+                "\u3010Advanced Technology\u3011 Delay sensing technology preserves battery life and prevents any unnecessary opening from pets, children, or walking by",
+                "Quiet closing function for longivity of product life",
+                "\u3010Touch-free Motion Sensor Lid Clouser\u3011Seal odor in and eliminate cross-contamination of germs",
+                "Requires 2 D batteries (not included), Alkaline battery highly recommended for best performance",
+                "\u3010Ease and Convenient\u3011Removable ring liner holds trash bag sturdy in place and prevents bag from overhanging for a neat and clean appearance"
+            ],
+            "category": "Clothing & Accessories",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15369567/201-ce22627f-400d-4aae-876f-cb0e1ad11735.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15369567/201_1-46e71107-5ead-41e5-b0f4-85cc571002ed.jpg"
+            ],
+            "sales_price": 50.00
+        },
+        {
+            "stock_number": "367",
+            "item": "Stair Basket Felt Staircase Organizer with Handles",
+            "total": 6.11,
+            "msrp": 10.99,
+            "description": [
+                "Internal Support Collapsible Modern Organization Stair Basket With Handles 4mm Stair Organizer Staircase Home Stair Basket Premium Felt Internal Support Organizing with Handles for Wooden Stairs Toys Living Room Home Suitable for toys, towels, Basket, pillows, clothes, bed linen, and adopt large objects",
+                "Item Qty Bid Amount Premium Fee Tax Total"
+            ],
+            "category": "Home & Garden",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15370528/367-2d016d46-c35d-4ebf-882d-a637c28b99e8.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15370528/367_1-bef79c91-5c2f-438d-9157-24f2afb86975.jpg"
+            ],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "372",
+            "item": "Ceiling Light",
+            "total": 1.22,
+            "msrp": 29.99,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15370533/372-1f30ea8b-73a5-4f6b-aca8-601422a1a6d1.jpg"],
+            "sales_price": 20.00
+        },
+        {
+            "stock_number": "383",
+            "item": "Yecaye Office Chair Mat for Hardwood Floor, Clear Office",
+            "total": 13.45,
+            "msrp": 29.99,
+            "description": [
+                "Floor Mat, Computer&Desk Chair Mat, PVC Heavy Duty Floor Protector Chair Mats for Rolling Chairs, Can't be Used on Carpet Chair Mat For Hard Floors Only: NOT SUITABLE FOR USE ON ANY CARPETS",
+                "Protects hard floor surfaces from scratching and scuffing as you swivel and slide around effortlessly carrying out daily tasks",
+                "Also, guards against dirt, stains, and spills to reduce wear and tear of your flooring, avoiding expensive costs on hardwood or laminate floor repairing",
+                "Avoiding harsh rubbing between chair and floor also benefits chair casters Strong Chair Mat: Made 2mm thick of premium PVC material, this hard floor chair mat is ready to stand up to everyday use with any swivel chairs",
+                "It\u2019s scuff- and scratch-resistant and will not discolor, curl, bend or crack under normal use",
+                "NOT SUITABLE FOR USE ON ANY CARPETS Easy-glide Surface & Edges: NOT FOR ANY CARPETS",
+                "Whether you need to roll back to stretch your legs and relax a little bit or roll onto the floor between tasks, this office chair mat for hardwood floor ensures effortless movement",
+                "Its smooth yet gripping surfaces allow you to slide freely without slipping or skidding while keeping the mat in place",
+                "You\u2019ll experience less physical fatigue of the legs and back throughout the day Sleek & Easy to Clean: Smooth surfaces are easy to clean and maintain, so you can enjoy the freshness of your chair mat all over the year",
+                "Sleek and transparent, the chair mat blends in well with your floor without detracting its beauty",
+                "This hard floor mat has a wide range of uses and will become your good desk chair mat, computer chair mat, and more",
+                "NOT SUITABLE FOR USE ON ANY CARPETS Excellent Protection for Hard Floors: NOT SUITABLE FOR USE ON ANY CARPETS",
+                "Use ONLY on hard floors like vinyl, hardwood, laminate, linoleum, tile, stone, and other concrete floorings in-home or office",
+                "Shipped in the rolled package for best value delivery, please follow the instructions provided to get the hard floor chair mat to lay flat easily"
+            ],
+            "category": "Home & Garden",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15370544/383-2990ea98-ca83-4451-893f-36e1caa70d86.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15370544/383_1-ca2a427e-ac68-42d7-b59d-aa93019ed6e2.jpg"
+            ],
+            "sales_price": 20.00
+        },
+        {
+            "stock_number": "398",
+            "item": "Aosky Cordless Roller Blind",
+            "total": 2.45,
+            "msrp": 0.0,
+            "description": [
+                "Item Qty Bid Amount Premium Fee Tax Total"
+            ],
+            "category": "Sports & Recreation",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15370558/398-d6512a6f-03b9-4a4a-ba28-aa881bdd0988.jpg"],
+            "sales_price": 10.00
+        }
+    ]
+}

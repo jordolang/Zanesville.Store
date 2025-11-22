@@ -1,0 +1,140 @@
+{
+    "invoice_id": "012325-3501-207678",
+    "auction_date": "2025-01-23",
+    "total_balance": 20.78,
+    "items": [{
+            "stock_number": "590",
+            "item": "L'OCCITANE Solid Stick Aluminum Free Deodorant: Reduce",
+            "total": 2.45,
+            "msrp": 22.0,
+            "description": [
+                "Body Odor, Alcohol-Free, Dries Quickly, Made in France, Fresh Cyper and Lavender Scent, Woody Aroma, Refreshing Verbena This men's stick deodorant glides on easily and dries quickly",
+                "Help prevent body odor and savor the crisp scent of citrusy Cedrat",
+                "Formulated without alcohol or aluminum salts",
+                "Helps prevent body odor and delivers a crisp scent"
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": [
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361921/590-0a4ccf0e-d1a5-4159-9877-06a3e720a852.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361921/590_1-63fd3303-f4a3-49ff-9316-02080e98784f.jpg"
+            ],
+            "sales_price": 5.00
+        },
+        {
+            "stock_number": "596",
+            "item": "AGE beautiful Permanent Hair Color Dye Liqui Creme | 100%",
+            "total": 1.22,
+            "msrp": 12.0,
+            "description": [
+                "Gray Coverage | Anti-Aging Haircolor | Biotin for Thicker, Fuller Hair | Professional Salon Coloring As we age, our hair experiences 5 signs of aging",
+                "It loses volume, manageability, color, moisture shine",
+                "AGEbeautiful Anti-Aging color is the 1st permanent liqui-creme color developed to fight all 5 signs of aging hair",
+                "First color with melanin, keratin peptide, silk protein and a patented conditioning technology to replenish hair"
+            ],
+            "category": "Health & Beauty",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361926/596-8913c927-0d71-4db1-be6e-697200b26d53.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361926/596_1-ab440af7-da24-40c4-8a0a-794befba4ef9.jpg"
+            ],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "599",
+            "item": "AGE beautiful Permanent Hair Color Dye Liqui Creme | 100%",
+            "total": 1.22,
+            "msrp": 12.0,
+            "description": [
+                "Gray Coverage | Anti-Aging Haircolor | Biotin for Thicker, Fuller Hair | Professional Salon Coloring As we age, our hair experiences 5 signs of aging",
+                "It loses volume, manageability, color, moisture shine",
+                "AGEbeautiful Anti-Aging color is the 1st permanent liqui-creme color developed to fight all 5 signs of aging hair",
+                "First color with melanin, keratin peptide, silk protein and a patented conditioning technology to replenish hair"
+            ],
+            "category": "Health & Beauty",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361929/599-b22165a7-ea47-4ec6-b2e3-93f86e47fc22.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361929/599_1-44765d0b-6d69-4533-bfcc-2237411011e6.jpg"
+            ],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "603",
+            "item": "RevitaLash Cosmetics, RevitaLash Advanced Eyelash",
+            "total": 3.67,
+            "msrp": 59.0,
+            "description": [
+                "Conditioner, Lash Enhancing Serum, Physician Developed & Cruelty-Free An original, Physician developed lash conditioner addresses the visible signs of eyelash aging due to chemical and environmental stressors, leading to healthier-looking, more luxurious lashes",
+                "Our award-winning lash conditioner enhances & protect against breakage while improving flexibility & shine"
+            ],
+            "category": "Health & Beauty",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361933/603-84541828-7369-43cc-9aa4-1009fcb6f7f0.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361933/603_1-a6851883-d26f-4b62-b146-1084944129af.jpg"
+            ],
+            "sales_price": 20.00
+        },
+        {
+            "stock_number": "607",
+            "item": "RevitaLash Cosmetics, RevitaLash Advanced Eyelash",
+            "msrp": 59.0,
+            "total": 3.67,
+            "description": [
+                "Conditioner, Lash Enhancing Serum, Physician Developed & Cruelty-Free An original, Physician developed lash conditioner addresses the visible signs of eyelash aging due to chemical and environmental stressors, leading to healthier-looking, more luxurious lashes",
+                "Our award-winning lash conditioner enhances & protect against breakage while improving flexibility & shine",
+                "Item Qty Bid Amount Premium Fee Tax Total"
+            ],
+            "category": "Health & Beauty",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361937/607-10bd3713-7f87-43e4-b01b-94857e6acf43.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361937/607_1-62ca0aad-62cc-4193-8801-c0d00a49ad7c.jpg"
+            ],
+            "sales_price": 20.00
+        },
+        {
+            "stock_number": "628",
+            "item": "Women's Elegant Crossover Swimsuit Pink Polka Dot XL",
+            "total": 4.89,
+            "msrp": 9.99,
+            "description": [
+                "Polka Dot pattern swimsuit for ladies."
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361957/628-fd31babf-a973-4a86-bc62-42f3b8f75cc6.jpg"],
+            "sales_price": 5.00
+        },
+        {
+            "stock_number": "634",
+            "item": "COLORCHARM Demi Permanent Hair Color, Hair Dye for",
+            "total": 1.22,
+            "msrp": 9.99,
+            "description": [
+                "Gray Hair Coverage, Adds Gloss, 2 oz 7WG Medium Caramel Blonde Our 21 WELLA colorcharm Demi-Permanent shades offer shiny-looking color with less damage, letting you gloss, tone, refresh, or enhance hair color",
+                "With a wide palette of Blonde, Red, Violet and deep Brunette shades, we have every color needed to create the look you desire",
+                "Or simply add some gloss with our Clear shade",
+                "Permanent color All 21 Demi-Permanent shades are enriched with Shea Butter",
+                "Free of ammonia, gluten, parabens, and animal-derived ingredients",
+                "Demi-Perms add new richness or fashion tones to your existing color"
+            ],
+            "category": "Health & Beauty",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361963/634-a51b08b4-3709-420b-a068-4f473eaff22a.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361963/634_1-cc44eaf9-74b1-4ac4-bdef-95cdef252ace.jpg"
+            ],
+            "sales_price": 10.00
+        },
+        {
+            "stock_number": "658",
+            "item": "Press-On Nails, One Minute Nail Tips, 24pcs",
+            "total": 2.45,
+            "msrp": 0.0,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "Tools & Hardware",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15361986/658-5b81ce1e-21d1-4962-b733-531dddc0ad9d.jpg"],
+            "sales_price": 10.00
+        }
+    ]
+}

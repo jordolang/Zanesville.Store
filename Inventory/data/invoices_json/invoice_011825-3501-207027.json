@@ -1,0 +1,35 @@
+{
+    "invoice_id": "011825-3501-207027",
+    "auction_date": "2025-01-18",
+    "total_balance": 22.01,
+    "items": [{
+            "stock_number": "120",
+            "item": "Set of 4 Threshold Studio McGee Set of 2 Rope Ball",
+            "total": 3.67,
+            "msrp": 80.0,
+            "description": [
+                "No additional description provided in the invoice."
+            ],
+            "category": "Home Decor",
+            "condition": "NEW",
+            "image_urls": [
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15358113/120-0c593add-d896-4b5b-8c45-f1e76b975f9e.jpg",
+                "https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15358113/120_1-e93b3854-3303-40eb-b61a-08d48217ca1f.jpg"
+            ],
+            "sales_price": 30.00
+        },
+        {
+            "stock_number": "123",
+            "item": "Keep America Great Flag",
+            "total": 2.45,
+            "msrp": 0.0,
+            "description": [
+                "Item Qty Bid Amount Premium Fee Tax Total"
+            ],
+            "category": "General Merchandise",
+            "condition": "NEW",
+            "image_urls": ["https://s3.amazonaws.com/prod.maxanet.auction/Mic756/Inventory15358116/123-8b679c81-0d00-453b-a01d-9ac5b5623549.jpg"],
+            "sales_price": 10.00
+        }
+    ]
+}
