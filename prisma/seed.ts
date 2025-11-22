@@ -1,4 +1,5 @@
-import { Prisma, PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
+import { Decimal } from "@prisma/client/runtime/library";
 import fs from "fs";
 import path from "path";
 import { parse } from "csv-parse/sync";
@@ -127,9 +128,9 @@ async function main() {
 
     const msrp = parsePrice(row.msrp, row.price);
     const salePrice = parsePrice(row.price, row.cost, row.discount_pct);
-    const priceDecimal = new Prisma.Decimal((msrp ?? salePrice ?? 0).toFixed(2));
+    const priceDecimal = new Decimal((msrp ?? salePrice ?? 0).toFixed(2));
     const discountedDecimal = salePrice
-      ? new Prisma.Decimal(salePrice.toFixed(2))
+      ? new Decimal(salePrice.toFixed(2))
       : priceDecimal;
 
     const thumbnails = toImages(row.image_url);
