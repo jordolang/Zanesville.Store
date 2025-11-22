@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "DATABASE_URL": "file:./zanesville-store.db"
+    }
+  }
+}
