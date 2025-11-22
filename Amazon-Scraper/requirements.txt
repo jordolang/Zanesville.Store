@@ -1,0 +1,19 @@
+# Core dependencies
+requests>=2.31.0
+typing-extensions>=4.5.0
+
+# Data processing
+json5>=0.9.14
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Optional: For better CLI experience
+click>=8.1.0
+rich>=13.4.0
+
+# Optional: For configuration management
+python-dotenv>=1.0.0
