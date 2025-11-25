@@ -1,0 +1,32 @@
+{
+  "product": {
+    "name": "MSI Stone NLOFGLA1224 Loft Glacier Tile with Matte Finish, 12\" x 24\", Beige",
+    "brand": "MSI",
+    "price": "80.54",
+    "rating": "0",
+    "reviews_count": "0",
+    "description": "Glacier porcelain tile from the loft Collection, features mid-tone grays in a pattern reminiscent of fine natural linen in 12x24 large format tiles. Designed to coordinate with tiles from the dimensions focus collections, they are ideal to create beautiful countertops, flooring, shower and bathtub surrounds, and backsplashes throughout the home, and in commercial properties.",
+    "bullet_points": "• Loft glacier collection\n• Matte finish\n• Luxury tile",
+    "features": [
+      "Loft glacier collection",
+      "Matte finish",
+      "Luxury tile"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/51nqspqoEjL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/41GNsiQeO4L._AC_.jpg"
+    ],
+    "specifications": {
+      "name": "Batteries Required?",
+      "value": "No"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B0757GNZHT",
+    "scraped_at": "2025-07-18 11:42:32"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

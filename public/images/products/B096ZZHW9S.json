@@ -1,0 +1,43 @@
+{
+  "product": {
+    "name": "Amazon Essentials Men's Full-Zip Polar Fleece Vest (Available in Big & Tall)",
+    "brand": "Amazon Essentials",
+    "price": "15.93",
+    "rating": "4.5",
+    "reviews_count": "13270",
+    "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men's must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "bullet_points": "• REGULAR FIT: Comfortable, easy fit through the shoulders, chest, and waist.\n• POLAR FLEECE: Double-sided knit fabric with a brushed finish and subtle texture, this soft and cozy midweight fleece keeps you warm and insulated while withstanding everyday wear.\n• COLD-WEATHER STYLING: Designed for outdoor activity, this polar fleece jacket takes you everywhere you need to go. Perfect as a finishing touch for a cool-weather look or a comfy layer when it's time to bundle up.\n• DETAILS: Features a mock-neck collar with a full-front zip, two zippered hand pockets, and elastic-bound armhole and bottom opening. Color blocked versions feature woven fabric detailing at the shoulders and collar and a woven chest pocket with zipper.",
+    "features": [
+      "REGULAR FIT: Comfortable, easy fit through the shoulders, chest, and waist.",
+      "POLAR FLEECE: Double-sided knit fabric with a brushed finish and subtle texture, this soft and cozy midweight fleece keeps you warm and insulated while withstanding everyday wear.",
+      "COLD-WEATHER STYLING: Designed for outdoor activity, this polar fleece jacket takes you everywhere you need to go. Perfect as a finishing touch for a cool-weather look or a comfy layer when it's time to bundle up.",
+      "DETAILS: Features a mock-neck collar with a full-front zip, two zippered hand pockets, and elastic-bound armhole and bottom opening. Color blocked versions feature woven fabric detailing at the shoulders and collar and a woven chest pocket with zipper."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/81LT227Z+tL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71bg9hbtwJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81XwVLRsAbL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ITW7tccEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71IKhAVL9UL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91GSTo1IroL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71h1uQ91JWL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B079LZTPYQ",
+      "department": "mens",
+      "manufacturer": "Amazon Essentials",
+      "best_sellers_rank": "#15 in Men's Outerwear Vests",
+      "item_model_number": "MAE10007FL18",
+      "package_dimensions": "15.55 x 12.48 x 2.44 inches; 11.36 ounces",
+      "date_first_available": "September 16, 2019"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B096ZZHW9S",
+    "scraped_at": "2025-07-18 11:29:15"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

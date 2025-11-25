@@ -1,0 +1,35 @@
+{
+  "product": {
+    "name": "Hampton Bay Low-Voltage LED Black Bollard Light",
+    "brand": "Hampton Bay",
+    "price": "44.85",
+    "rating": "3.1",
+    "reviews_count": "18",
+    "description": "Add style and enhance the beauty of your home and landscape with this professional-quality cast aluminum low-voltage LED bollard to illuminate pathways and low-lying greenery. The elegant fixture is reminiscent of something you might see along a wharf or dock, so it’s perfect for any dwelling near the waterfront or any residence whose owners have a nautical affinity. A frosted glass lens softens light output for an elegant look.",
+    "bullet_points": "• Features a cast aluminum bollard with black-finished body Emits a cool white light for charming nighttime luminescence Integrated LED lasts up to 50,000 hours\n• Energy-efficient low-voltage LED consumes minimal electricity, costing just pennies per night to operate Cast aluminum construction, frosted glass and metal spike for rugged durability, stylish appearance and ease of installation\n• Includes 12 in. SPT-1 18-Gauge cable and easy-to-use quick-clip connector Power pack and low-voltage cable sold separately\n• Cool white integrated LED",
+    "features": [
+      "Features a cast aluminum bollard with black-finished body Emits a cool white light for charming nighttime luminescence Integrated LED lasts up to 50,000 hours",
+      "Energy-efficient low-voltage LED consumes minimal electricity, costing just pennies per night to operate Cast aluminum construction, frosted glass and metal spike for rugged durability, stylish appearance and ease of installation",
+      "Includes 12 in. SPT-1 18-Gauge cable and easy-to-use quick-clip connector Power pack and low-voltage cable sold separately",
+      "Cool white integrated LED"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/91LwDB1O5QL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91MFs7HDi6L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/911As8h3GML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91ogOaMJohL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Batteries Required?",
+      "value": "No"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B01N6X32F3",
+    "scraped_at": "2025-07-18 11:35:53"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

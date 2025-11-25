@@ -1,0 +1,40 @@
+{
+  "product": {
+    "name": "Bikewa Men's Cycling Underwear with Anti-Slip Leg Grips 4D Padded Bike Shorts MTB Liner for Bicycle Biking Riding",
+    "brand": "Bikewa",
+    "price": "16.99",
+    "rating": "4.4",
+    "reviews_count": "34",
+    "description": "Each of\nproducts are born in practice, we never stop process in discovery and trying,just for the better\n,\n,\nand\n.All this we have done is to give you a better feeling of comfort and aesthetic.\nElastic cuffs to prevent riding up\nOffer great comfort and secure fit\nFlat locked stitching added comfort",
+    "bullet_points": "• 90% Polyester, 10% Spandex\n• Moisture-Wicking & Stretchy: With breathable, Moisture Wicking, and four-way stretch fabric keeps you dry and comfortable throughout your ride.\n• Anti-Slip Leg Grips: The wide anti-slip leg grips provide a secure fit and prevent the legs from riding up, thereby reducing the risk of chafing while riding.\n• Ergonomic 4D Pad: Enhanced with upgraded 4D padding, they absorb road vibrations to deliver lasting comfort on short and long rides.\n• Elastic Wide Waistband: Soft, flexible, and designed to lay flat against the skin for all-day comfort. It provides a secure fit without digging in or rolling.\n• 5-Inch Inseam: Offers ideal coverage and a secure fit under casual shorts or pants, perfect for road cycling, commuting, trail riding, or spinning.",
+    "features": [
+      "90% Polyester, 10% Spandex",
+      "Moisture-Wicking & Stretchy: With breathable, Moisture Wicking, and four-way stretch fabric keeps you dry and comfortable throughout your ride.",
+      "Anti-Slip Leg Grips: The wide anti-slip leg grips provide a secure fit and prevent the legs from riding up, thereby reducing the risk of chafing while riding.",
+      "Ergonomic 4D Pad: Enhanced with upgraded 4D padding, they absorb road vibrations to deliver lasting comfort on short and long rides.",
+      "Elastic Wide Waistband: Soft, flexible, and designed to lay flat against the skin for all-day comfort. It provides a secure fit without digging in or rolling.",
+      "5-Inch Inseam: Offers ideal coverage and a secure fit under casual shorts or pants, perfect for road cycling, commuting, trail riding, or spinning."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/514Dz30XDML._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51KM75At3rL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/41UiL0xb8zL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51tEFXDwXyL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51vf3g0YRKL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/51x5FGS-uBL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/41KuwHG80rL._AC_.jpg"
+    ],
+    "specifications": {
+      "name": "Size",
+      "value": "Small"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B0F1KCM9HC",
+    "scraped_at": "2025-07-18 11:30:49"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

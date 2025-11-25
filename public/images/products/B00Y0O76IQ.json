@@ -1,0 +1,41 @@
+{
+  "product": {
+    "name": "MTD Replacement Part Clutch Assembly",
+    "brand": "MTD",
+    "price": "22.95",
+    "rating": "4.6",
+    "reviews_count": "140",
+    "description": "Founded in Cleveland in 1932, MTD Products Inc. is a leader in the design and manufacture of outdoor power equipment such as lawnmowers and snow blowers.\nHeadquartered in Valley City, Ohio, MTD has engineering, manufacturing, distribution, and sales offices in more than 20 countries.\nMTD's original founders were entrepreneurs who set out from Germany to create jobs for themselves and others in America. They believed people were what made the difference. MTD continues their legacy today by holding true to these core values, giving back to the people and communities we call home, creating jobs, and developing innovative products.",
+    "bullet_points": "• This is an O.E.M. authorized part\n• Fits various MTD models\n• OEM Part Number 753-06281\n• This is a MTD replacement part",
+    "features": [
+      "This is an O.E.M. authorized part",
+      "Fits various MTD models",
+      "OEM Part Number 753-06281",
+      "This is a MTD replacement part"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/71bRIXZPcTL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81HcYE+4hrL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91tSrl2q3kL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81+SMr4Xi-L._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B00Y0O76IQ",
+      "item_weight": "8 ounces",
+      "manufacturer": "MTD",
+      "customer_reviews": "4.6 4.6 out of 5 stars 140 ratings 4.6 out of 5 stars",
+      "best_sellers_rank": "#155,748 in Patio, Lawn & Garden (See Top 100 in Patio, Lawn & Garden) #200 in Lawn Mower Clutches",
+      "item_model_number": "753-06281",
+      "product_dimensions": "1 x 1 x 1 inches",
+      "is_discontinued_by_manufacturer": "No"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B00Y0O76IQ",
+    "scraped_at": "2025-07-18 11:36:51"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

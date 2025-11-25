@@ -1,0 +1,40 @@
+{
+  "product": {
+    "name": "Max Studio Women's Straight Leg Elastic Waist Pant",
+    "brand": "Max Studio",
+    "price": "38.9",
+    "rating": "5",
+    "reviews_count": "2",
+    "description": "Add this staight leg elastic waist pant to your wardrobe for everyday wear.",
+    "bullet_points": "• Elastic Waist\n• Zipper Closure\n• Straight Leg\n• Side Pockets\n• Woven",
+    "features": [
+      "Elastic Waist",
+      "Zipper Closure",
+      "Straight Leg",
+      "Side Pockets",
+      "Woven"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/71e1Si3nVFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/615xFuKIe0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71m-tvamVcL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0BS2JDGQK",
+      "department": "womens",
+      "manufacturer": "Max Studio",
+      "best_sellers_rank": "#13,418 in Women's Casual Pants & Capris",
+      "item_model_number": "2712Z03",
+      "package_dimensions": "20.72 x 12.84 x 1.97 inches; 14.39 ounces",
+      "date_first_available": "January 10, 2023"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B0BSP5QPKR",
+    "scraped_at": "2025-07-18 11:31:35"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

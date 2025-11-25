@@ -1,0 +1,33 @@
+{
+  "product": {
+    "name": "York Wallcoverings NZ0786 Grasscloth Wallpaper by River Grass, Black, Cream, Beige, Khaki, Tan",
+    "brand": "York Wallcoverings",
+    "price": "136.25",
+    "rating": "4.5",
+    "reviews_count": "183",
+    "description": "Midnight at the oasis. And this is the sophisticated look for just such an exotic locale. Or for an Asian setting, and how striking in a contemporary American home! the juxtaposition of neutral shades of beige and cream with the ebony background elevates this grass cloth to the next level of nouveau classic organic home decor.",
+    "bullet_points": "• Packaged and sold as a double roll\n• Unpasted, washable, strippable\n• Double roll dimensions: 36\" x 24 feet = 72 square feet; design repeat: n/a; design match: random\n• Country of Origin: China",
+    "features": [
+      "Packaged and sold as a double roll",
+      "Unpasted, washable, strippable",
+      "Double roll dimensions: 36\" x 24 feet = 72 square feet; design repeat: n/a; design match: random",
+      "Country of Origin: China"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/71T8ynfi9rL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/A1tppVCjewL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Batteries Required?",
+      "value": "No"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B00LP0OAW8",
+    "scraped_at": "2025-07-18 11:35:13"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "product": {
+    "name": "Enbrighten VIBE Smart LED Security Light, Motion Activated, Three Head, ETL Listed, UV Resistant, 3400 Lumens, 4000K, Compatible with Alexa, Google Home, Bronze, 58245",
+    "brand": "Enbrighten",
+    "price": "69.99",
+    "rating": "4.2",
+    "reviews_count": "23",
+    "description": "Experience the enhanced protection of smart security with the Enbrighten LED Wi-Fi Smart Security Light. Combining the premium standard in lighting technology and Wi-Fi controls, this security light is designed to help keep your home safe. With easy-to-use wireless features, the free Enbrighten app provides voice activation, variable motion sensing, on-demand ON/OFF control, dimming, custom scheduling and much more — available on the Apple App Store and Google Play, 2.4GHz Wi-Fi network required. When motion is detected within a custom range of your choosing, up to 70ft., the adjustable three-head spotlight will fully illuminate the surrounding space with an ultra-bright white light — 4000K, 3401-lumen maximum. In addition, any connected lights in your home can be triggered to turn on alongside the security light! The unique, ringed accent light on the base is also perfect for adding a subtle sense of style. Ideal for mounting on the walls or eaves of any outdoor location, all the hardware you’ll need to get the job done is already included in the box. This sturdy fixture is also ETL-listed and built to last in bad weather and harsh environments. Once installed and app settings customized, you will rest assured knowing your home has a special layer of safety with the Enbrighten LED Wi-Fi Smart Security Light!",
+    "bullet_points": "• Smart Security – Personalize the way you protect your home with voice activation using Alexa or Google Home, motion sensing, dimming, custom scheduling and more – pair with the free Enbrighten app on the Apple App Store and Google Play (2.4GHz Wi-Fi network required)\n• Premium Floodlight – Place high-quality light where you need it the most with the threehead floodlight, choose a custom brightness level for when the light turns on and set it as a trigger to activate your home's other paired Wi-Fi fixtures – LEDs emit a cool-white 4000K, 3401 lumen max\n• Versatile Accent Light – Features a unique, ringed accent light that emits a subtle warm glow – provides an independently controlled 427-lumen, 2200K light while the floodlights are deactivated, maintaining the safety of your home in style\n• Motion Sensing – Detects movement in a wide 210° field with the option to alternate the 70ft. maximum sensitivity between your preference of high, medium and low – use the app to quickly set up your preference of range, timeout and more\n• Quick Installation – Experience an easy, two-step installation using the included quick connectors and mounting plate – this product is ETL-listed, UV resistant and IP65 rated for use in all weather conditions",
+    "features": [
+      "Smart Security – Personalize the way you protect your home with voice activation using Alexa or Google Home, motion sensing, dimming, custom scheduling and more – pair with the free Enbrighten app on the Apple App Store and Google Play (2.4GHz Wi-Fi network required)",
+      "Premium Floodlight – Place high-quality light where you need it the most with the threehead floodlight, choose a custom brightness level for when the light turns on and set it as a trigger to activate your home's other paired Wi-Fi fixtures – LEDs emit a cool-white 4000K, 3401 lumen max",
+      "Versatile Accent Light – Features a unique, ringed accent light that emits a subtle warm glow – provides an independently controlled 427-lumen, 2200K light while the floodlights are deactivated, maintaining the safety of your home in style",
+      "Motion Sensing – Detects movement in a wide 210° field with the option to alternate the 70ft. maximum sensitivity between your preference of high, medium and low – use the app to quickly set up your preference of range, timeout and more",
+      "Quick Installation – Experience an easy, two-step installation using the included quick connectors and mounting plate – this product is ETL-listed, UV resistant and IP65 rated for use in all weather conditions"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/81EU8EFu6nL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81QiebYuYuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91+88eLJgpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Juq2YqKbL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81a8oKBpUML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81VFxKe4pfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Ss28IynWL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Warranty Description",
+      "value": "5 year limited warranty."
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B092XWB9CK",
+    "scraped_at": "2025-07-18 11:32:57"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

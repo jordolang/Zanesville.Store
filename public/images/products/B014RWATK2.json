@@ -1,0 +1,48 @@
+{
+  "product": {
+    "name": "Amazon Basics 2-Pack USB-A 3.0 Extension Cable, 4.8Gbps High-Speed, Male to Female Gold-Plated Connectors, 6 Foot, Black",
+    "brand": "Amazon Basics",
+    "price": "11.88",
+    "rating": "4.6",
+    "reviews_count": "49368",
+    "description": "Product Description Amazon Basics USB 3.0 Extension Cable - A-Male to A-Female Extender Cord - 6 Feet (2 Pack) From the Manufacturer Amazon Basics",
+    "bullet_points": "• IN THE BOX: 6-foot USB 3.0 A-male to A-female high-speed extension cable (2-pack)\n• CONVENIENT: Extends a USB connection from a computer; ideal for printers, cameras, mice, and other USB computer peripherals\n• GOLD-PLATED CONNECTORS: Corrosion-resistant, gold-plated connectors for optimal signal clarity\n• PROTECTIVE SHIELDING: Shielding protects against noise, minimizing interference for a clear signal\n• USB 3.0: Uses less power, but has increased power output (up to 4.8 Gbit/s); 10X faster compared to USB 2.0",
+    "features": [
+      "IN THE BOX: 6-foot USB 3.0 A-male to A-female high-speed extension cable (2-pack)",
+      "CONVENIENT: Extends a USB connection from a computer; ideal for printers, cameras, mice, and other USB computer peripherals",
+      "GOLD-PLATED CONNECTORS: Corrosion-resistant, gold-plated connectors for optimal signal clarity",
+      "PROTECTIVE SHIELDING: Shielding protects against noise, minimizing interference for a clear signal",
+      "USB 3.0: Uses less power, but has increased power output (up to 4.8 Gbit/s); 10X faster compared to USB 2.0"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61WEMYhtX2L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71lYkKdfxmS._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/719CklBtyHL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61tv4zR5JPS._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51pqz+9qZtS._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51ajqjMk6hL._SL1091_.jpg",
+      "https://m.media-amazon.com/images/I/91D1m6+LIeS._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81sFtfWniJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81b1-FgZnTL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71rlO5lXalL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61SFviAS17L._SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B014RWATK2",
+      "manufacturer": "Amazon",
+      "best_sellers_rank": "#598 in USB Cables",
+      "country_of_origin": "China",
+      "item_model_number": "HL-007250",
+      "product_dimensions": "76.57 x 6.1 x 2.95 inches; 7.2 ounces",
+      "date_first_available": "May 2, 2016"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B014RWATK2",
+    "scraped_at": "2025-07-18 11:30:06"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

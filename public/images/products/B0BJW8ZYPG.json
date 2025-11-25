@@ -1,0 +1,38 @@
+{
+  "product": {
+    "name": "CLOUDY BAY 5CCT 3 Light Directional Ceiling Spotlight,Dimmable LED Track Light Heads,CRI90+,2100Lm for Hallway Kitchen Art,White",
+    "brand": "CLOUDY BAY",
+    "price": "54.99",
+    "rating": "4.6",
+    "reviews_count": "648",
+    "description": "2700K/3000K is warm ,cozy and relaxing, ideal for bedroom, hallway, coffee shop and clothing store\n3500/4000K gives a neutral glow, suitable for living room, kitchen and other areas\n5000K is bright and clear, widely used in study, workshop, gallery, jewelry store or other place where to show details",
+    "bullet_points": "• 2700K/3000K /3500K/4000K/5000K in one fixture,20W LED track light equivalent to 3*50W halogen. Integrated with COB（chip on board), not bulb replaceable\n• 3 pivoting track heads direct and focus light where needed(90° rotatable of the light head and 330° rotatable of the main bracket)\n• Dimming smoothly from 10% - 100%, flicker-free.Compatible with most Leviton and Lutron dimmers(Please refer to the dimmer list)\n• Perfect for dinning room,living room,bedroom,hallway,entryway,foyer,office and more\n• 3-year warranty assures the rated 25,000 lifetime (average 3-5 hours/day).Contact us for an easy and fast replacement.",
+    "features": [
+      "2700K/3000K /3500K/4000K/5000K in one fixture,20W LED track light equivalent to 3*50W halogen. Integrated with COB（chip on board), not bulb replaceable",
+      "3 pivoting track heads direct and focus light where needed(90° rotatable of the light head and 330° rotatable of the main bracket)",
+      "Dimming smoothly from 10% - 100%, flicker-free.Compatible with most Leviton and Lutron dimmers(Please refer to the dimmer list)",
+      "Perfect for dinning room,living room,bedroom,hallway,entryway,foyer,office and more",
+      "3-year warranty assures the rated 25,000 lifetime (average 3-5 hours/day).Contact us for an easy and fast replacement."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61pvFw4rfRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71-ZNJc5lLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mEDCXYbNL._AC_SL1468_.jpg",
+      "https://m.media-amazon.com/images/I/81LkYsv5idL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61mAwOJ4-UL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71M2pSOx4bL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Batteries Required?",
+      "value": "No"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B0BJW8ZYPG",
+    "scraped_at": "2025-07-18 11:26:30"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

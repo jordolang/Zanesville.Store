@@ -1,0 +1,43 @@
+{
+  "product": {
+    "name": "BLACK+DECKER 20V MAX* Cordless Reciprocating Saw Kit (BDCR20C)",
+    "brand": "BLACK+DECKER",
+    "price": "59",
+    "rating": "4.5",
+    "reviews_count": "9838",
+    "description": "Our 20V MAX* Variable Speed Cordless Reciprocating Saw is versatile, lightweight, and easy to use. It features a powerful 3000 SPM motor with a variable speed trigger and electric brake to enhance control. Tool-free blade changes and an adjustable pivoting shoe add convenience and ease of use.",
+    "bullet_points": "• Cordless reciprocating saw features tool-free blade change\n• Pivoting shoe for increased control\n• Variable speed trigger for increased control\n• International products have separate terms, are sold from abroad and may differ from local products, including fit, age ratings, and language of product, labeling or instructions",
+    "features": [
+      "Cordless reciprocating saw features tool-free blade change",
+      "Pivoting shoe for increased control",
+      "Variable speed trigger for increased control",
+      "International products have separate terms, are sold from abroad and may differ from local products, including fit, age ratings, and language of product, labeling or instructions"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/51sb0fqfVeL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/619OIpC6FuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81sG6yN+sLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71fjn-7vXhL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71TL8tZaBuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Bx-UoNiTL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71GL0RSmwaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71wHWa+f+PL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71r7ZZZufYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61HIN-ViYxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61S0owjrDPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61oSgsNb6QL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Warranty Description",
+      "value": "2 year limited warranty"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B076HPKK19",
+    "scraped_at": "2025-07-18 11:44:48"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "product": {
+    "name": "Regency Fusion Wire Management C-Leg Base- Black",
+    "brand": "Regency",
+    "price": "166.68",
+    "rating": "5",
+    "reviews_count": "1",
+    "description": "This fusion C-Leg is part of a complete desk. Each set includes two legs each with adjustable leveling glides. The C-Legs are unique to the fusion collection and offer a concealed wire management solution. Each leg has a vented compartment with removable cover that runs the length of the leg. Wires run from a power source on the floor through the legs and up to desktops for instant connectivity. The legs are constructed of a sturdy metal with a sylish black finish to match any decor. Fusion casegoods are backed by a 10-year limited manufacturer's warranty.",
+    "bullet_points": "• C-Legs are unique to the Fusion collection and offer a concealed wire management solution\n• Vented compartment with removable cover on each Leg for wires to run Inside legs and up to desktops for instant connectivity\n• Constructed of a Sturdy metal with a sylish Black Finish to match any decor\n• Adjustable Glides Ensure a level worksurface\n• Backed by a 10-year limited manufacturer's warranty",
+    "features": [
+      "C-Legs are unique to the Fusion collection and offer a concealed wire management solution",
+      "Vented compartment with removable cover on each Leg for wires to run Inside legs and up to desktops for instant connectivity",
+      "Constructed of a Sturdy metal with a sylish Black Finish to match any decor",
+      "Adjustable Glides Ensure a level worksurface",
+      "Backed by a 10-year limited manufacturer's warranty"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61+oKDzHHOL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61GhCBSZVWL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71J2CB1y2PL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71P-X76IoFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/31B63IcMRAL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/61+oKDzHHOL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71J2CB1y2PL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71P-X76IoFL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Assembled Depth",
+      "value": "3 inches"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B06WP6BVQT",
+    "scraped_at": "2025-07-18 11:42:28"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

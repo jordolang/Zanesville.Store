@@ -28,6 +28,10 @@ model Product {
   slug            String    @unique
   description     String?
   reviews         Int       @default(0)
+  rating          Decimal?
+  brand           String?
+  asin            String?
+  features        Json?
   price           Decimal
   discountedPrice Decimal?
   thumbnailUrls   Json

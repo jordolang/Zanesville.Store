@@ -1,0 +1,55 @@
+{
+  "product": {
+    "name": "Amazon Basics Room Darkening Blackout Curtain Rod - 28\" to 48\", Nickel",
+    "brand": "Amazon Basics",
+    "price": "13.69",
+    "rating": "4.7",
+    "reviews_count": "60592",
+    "description": "Product Description Amazon Basics Room Darkening Blackout Curtain Rod - 28\" to 48\", Nickel From the Manufacturer Amazon Basics",
+    "bullet_points": "• Curtain rod for window treatment in a bedroom, living room, or other living space\n• Made of durable metal with a Nickel finish\n• Adjustable length from 28 - 48 inches end-to-end, excluding finials; 20 - 40 inches including wraparound ends; wall mount hardware and instructions included for easy install\n• Curved at both ends, wrapping curtains around the window from end to end, blocking out light while insulating the room\n• 5/8-inch rod diameter capable of handling moderately fabrics; can hold up to 16 pounds",
+    "features": [
+      "Curtain rod for window treatment in a bedroom, living room, or other living space",
+      "Made of durable metal with a Nickel finish",
+      "Adjustable length from 28 - 48 inches end-to-end, excluding finials; 20 - 40 inches including wraparound ends; wall mount hardware and instructions included for easy install",
+      "Curved at both ends, wrapping curtains around the window from end to end, blocking out light while insulating the room",
+      "5/8-inch rod diameter capable of handling moderately fabrics; can hold up to 16 pounds"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/31lP12oyxFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/711QJQac+BL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71argcavG6L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81XDJ0IjpgL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/411ljk546YL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ToUXuYLJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/813LhubJ-AL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "upc": "028295566445",
+      "asin": "B0792H887H",
+      "brand": "Amazon Basics",
+      "color": "Nickel",
+      "import": "Imported",
+      "material": "Metal",
+      "item_weight": "1.17 pounds",
+      "finish_types": "Moderately",
+      "manufacturer": "Amazon",
+      "mounting_type": "Wall Mounted",
+      "customer_reviews": "4.7 4.7 out of 5 stars 60,592 ratings 4.7 out of 5 stars",
+      "best_sellers_rank": "#593 in Our Brands (See Top 100 in Our Brands) #13 in Single Window Rods",
+      "country_of_origin": "Vietnam",
+      "item_model_number": "244242-411-A60",
+      "batteries_required": "No",
+      "product_dimensions": "27.25\"L x 4\"W",
+      "maximum_weight_recommendation": "16 Pounds",
+      "global_trade_identification_number": "00028295566445"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B0792H887H",
+    "scraped_at": "2025-07-18 11:43:41"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

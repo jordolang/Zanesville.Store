@@ -1,0 +1,48 @@
+{
+  "product": {
+    "name": "Weber Original Kettle Premium Charcoal Grill, 22-Inch, Black",
+    "brand": "Weber",
+    "price": "219",
+    "rating": "4.7",
+    "reviews_count": "7133",
+    "description": "Spark your passion for charcoal grilling with the Kettle that started it all. The Original Kettle Premium charcoal grill boasts upgraded features, such as a hinged cooking grate for easily adding charcoal while grilling, and the One-Touch cleaning system with high-capacity ash catcher, making for a smooth grilling experience from beginning to end.",
+    "bullet_points": "• Holds up to 13 burgers made with a Weber burger press\n• One-Touch cleaning system with high-capacity ash catcher provides hassle-free ash cleanup\n• Porcelain-enameled lid and bowl retain heat, and won’t rust or peel\n• Use the lid hook to avoid placing the lid on the ground while grilling\n• Cooking grate is hinged for easily adding charcoal while grilling",
+    "features": [
+      "Holds up to 13 burgers made with a Weber burger press",
+      "One-Touch cleaning system with high-capacity ash catcher provides hassle-free ash cleanup",
+      "Porcelain-enameled lid and bowl retain heat, and won’t rust or peel",
+      "Use the lid hook to avoid placing the lid on the ground while grilling",
+      "Cooking grate is hinged for easily adding charcoal while grilling"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/71uQnSUmBFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71qiFZh7G3L._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61xfvfWwhOL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61E5rygBVbL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61yHW8fFIIL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/71haHx205sL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/613qb4ThXRL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/611GcwQ3kwL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/71+bwxI45IL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/61BTv92rGOL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/61bB4WaOfpL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/71cJlGW05rL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/61tvL0zwzfL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/71scjQzb9IL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/71dwJTTaloL._AC_SL1024_.jpg",
+      "https://m.media-amazon.com/images/I/615w8-M6bQL._AC_SL1024_.jpg"
+    ],
+    "specifications": {
+      "name": "Warranty Description",
+      "value": "10 year limited warranty"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B00MKB5TXA",
+    "scraped_at": "2025-07-18 11:26:57"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

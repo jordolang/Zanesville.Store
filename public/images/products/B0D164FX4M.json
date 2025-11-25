@@ -1,0 +1,37 @@
+{
+  "product": {
+    "name": "Universal Thread Women's High-Rise 90's Straight Jeans - (US, Numeric, 8, Regular, Regular, Dark Wash)",
+    "brand": "Universal Thread",
+    "price": "34.99",
+    "rating": "5",
+    "reviews_count": "1",
+    "description": "Update your denim closet with these High-Rise '90s Straight Jeans from Universal Thread. Made from stretchy denim fabric for flexible comfort, these flattering high-rise jeans feature a straight-leg cut to give you a comfortable retro look. The belt-loop waistband with a fly button offers a secure fit, while multiple front and back pockets let you store your small on-the-go essentials.",
+    "bullet_points": "• Straight-leg silhouette\n• Denim fabric with stretch\n• Button and zip fly closure, belt loops\n• Classic 5-pocket design\n• Item Length Description: Ankle length",
+    "features": [
+      "Straight-leg silhouette",
+      "Denim fabric with stretch",
+      "Button and zip fly closure, belt loops",
+      "Classic 5-pocket design",
+      "Item Length Description: Ankle length"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61mlovvecqL._AC_SL1028_.jpg",
+      "https://m.media-amazon.com/images/I/61X1PVWP5yL._AC_SL1000_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0D164FX4M",
+      "department": "womens",
+      "best_sellers_rank": "#7,233 in Women's Jeans",
+      "country_of_origin": "Vietnam",
+      "date_first_available": "April 8, 2024"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B0D164FX4M",
+    "scraped_at": "2025-07-18 11:32:29"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

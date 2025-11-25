@@ -1,0 +1,35 @@
+{
+  "product": {
+    "name": "Bostitch 15 deg. 11 Ga. Ring Shank Angled Coil Nails 3 in. L x 0.12 in. Dia. 2,700 pk",
+    "brand": "Bostitch",
+    "price": "145.48",
+    "rating": "0",
+    "reviews_count": "0",
+    "description": "Bostitch 15 deg. 11 Ga. Ring Shank Angled Coil Nails 3 in. L x 0.12 in. Dia. 2,700 pk",
+    "bullet_points": "• Number in Package: 2700 pc.\n• Shank Diameter: 0.120 in.\n• Point Type: Diamond Point\n• Nail Type: Framing\n• Finish: Galvanized",
+    "features": [
+      "Number in Package: 2700 pc.",
+      "Shank Diameter: 0.120 in.",
+      "Point Type: Diamond Point",
+      "Nail Type: Framing",
+      "Finish: Galvanized"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61l6r9kJvcL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61l6r9kJvcL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61l6r9kJvcL._AC_SL1000_.jpg"
+    ],
+    "specifications": {
+      "name": "Measurement System",
+      "value": "inch"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B00MGFKFAW",
+    "scraped_at": "2025-07-18 11:28:11"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

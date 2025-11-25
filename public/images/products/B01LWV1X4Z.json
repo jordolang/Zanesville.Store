@@ -1,0 +1,36 @@
+{
+  "product": {
+    "name": "Beams MB3000 High Performance 500 Lumen Wireless Battery Powered Motion Sensing LED Dual Head Security Spotlight, Brown, 1-Pack",
+    "brand": "Mr Beams",
+    "price": "39.99",
+    "rating": "4.5",
+    "reviews_count": "8155",
+    "description": "",
+    "bullet_points": "• The dual head spotlight provides 500 lumens of bright light for large, dark areas.\n• Customize the bright LED light coverage area with two adjustable heads that pivot 180 degrees up and down and 135 degrees side to side.\n• The LED security light activates when it detects motion from 30 feet away and automatically shuts off 20 seconds after motion stops to prolong battery life.\n• Install the wireless LED spotlight in minutes with the included screws anywhere light is needed, including garages, doorways, sheds and fences.\n• The durable and weatherproof design make this wireless outdoor security spotlight ideal for outdoor use.",
+    "features": [
+      "The dual head spotlight provides 500 lumens of bright light for large, dark areas.",
+      "Customize the bright LED light coverage area with two adjustable heads that pivot 180 degrees up and down and 135 degrees side to side.",
+      "The LED security light activates when it detects motion from 30 feet away and automatically shuts off 20 seconds after motion stops to prolong battery life.",
+      "Install the wireless LED spotlight in minutes with the included screws anywhere light is needed, including garages, doorways, sheds and fences.",
+      "The durable and weatherproof design make this wireless outdoor security spotlight ideal for outdoor use."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/51R7+U3XwxL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/612z7JGXmML._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61jnSFwTF+L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/710s2s1TO4L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/611doPCtP+L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/71DDi5VK2hL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/71ZTIYE+kGL._SL1000_.jpg"
+    ],
+    "specifications": {},
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B01LWV1X4Z",
+    "scraped_at": "2025-07-18 11:40:54"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 5
+  }
+}

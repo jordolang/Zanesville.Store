@@ -1,0 +1,44 @@
+{
+  "product": {
+    "name": "GHome Smart Mini Smart Plugs Work with Alexa and Google Home, WiFi Smart Outlet Socket Remote Control Timer Function, Only 2.4GHz Network, No Hub Required, ETL FCC Listed",
+    "brand": "GHome Smart",
+    "price": "24.79",
+    "rating": "4.4",
+    "reviews_count": "3150",
+    "description": "At GHome Smart, we believe that sustainability is a way of life. From implementing energy-efficient processes to manufacturing low-carbon products, we aim to reduce our environmental impact. We make sustainability accessible to everyone by providing simple, low-cost solutions that help save energy and reduce carbon footprint. At GHome Smart, we believe that smart technology and sustainable development go hand-in-hand.\nFree your hands by using smart plugs and enjoy the funny interactive process.\nControl your connected home appliances and devices anytime & anywhere.\n24 hours timer, set schedules for helping save energy and money.\nSet a group for some smart plugs and control connected appliances with one tap.\nMini size and switch indicator light that can be turned off, give you better life environment.\nShare your smart plugs with your families and enjoy the smart life together.\nTips 1 for Quick Connection\n1.Only support 2.4Ghz WiFi while connecting with APP.\n2.Support Android5.0 or iOS 13.0 or above.\n3.Press and hold the power button for 5-10 seconds ,confirm that the indicator is blinking before connecting.\nTips 2 for Quick Connection\n1.Once connected,you can control the outlet anywhere, but keep the smart plug stay on 2.4Ghz WiFi .\n2.If can't be connected , re-press the on/off button for 5s to reset the smart plug and change the Easy mode to AP mode which is more compatible.\nHow Do I Connect My Dual-band Router to GHome Smart Plugs?\nPlan A: Please turn off 5GHz networking before first connecting.\nPlan B: Set 2 different SSIDs for the 2.4GHz and 5GHz networks, then connect these plugs to the 2.4GHz WiFi network only.\nWhat APP Connections are Supported?\nOur smart outlets compatible with Our APP, Smart Life App and Tuya App.\nWhat Appliances are Supported?\nApply to home appliances which Max load power1200W,10A, please check the load of your appliance before plugging in.",
+    "bullet_points": "• SAFE DESIGNED&QUICK CONNECTION: Simply plugin and keep the smart outlet connected to your stable 2.4GHz network, the improved WiFi technology let you quick connection and stay stable.\n• HAND-FREE VOICE CONTROL: Smart plugs that work with Alexa and Google Home Assistant. Just give a simple voice command to Alexa or Google Assistant to control your connected home devices.\n• APP REMOTE CONTROL FROM ANYWHERE: You also can control your smart plug via the APP directly when you are away, so long as your phone access a secure network (2.4G,4G, or 5G Wi-Fi).\n• SCHEDULES&AUTO-OFF TIMER: Easy to set timers and add schedules to connected devices circularly or randomly, making them work as scheduled like auto-off and auto-on.\n• GROUPING CONTROL & SHARING: Set a group for all wifi smart plugs and control them with simply one tap. Share your wifi plug smart outlets with all family members in a minute.",
+    "features": [
+      "SAFE DESIGNED&QUICK CONNECTION: Simply plugin and keep the smart outlet connected to your stable 2.4GHz network, the improved WiFi technology let you quick connection and stay stable.",
+      "HAND-FREE VOICE CONTROL: Smart plugs that work with Alexa and Google Home Assistant. Just give a simple voice command to Alexa or Google Assistant to control your connected home devices.",
+      "APP REMOTE CONTROL FROM ANYWHERE: You also can control your smart plug via the APP directly when you are away, so long as your phone access a secure network (2.4G,4G, or 5G Wi-Fi).",
+      "SCHEDULES&AUTO-OFF TIMER: Easy to set timers and add schedules to connected devices circularly or randomly, making them work as scheduled like auto-off and auto-on.",
+      "GROUPING CONTROL & SHARING: Set a group for all wifi smart plugs and control them with simply one tap. Share your wifi plug smart outlets with all family members in a minute."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61b-iG0eIQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Ru1ZSQpyL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/7175VonFNRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71MJHlOv37L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71YV5bbffWL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61w+6n1oUKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61f5GNnQZ5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61g4m5-a8jL._SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B09JZKK3KS",
+      "manufacturer": "GHome Smart",
+      "country_of_origin": "China",
+      "item_model_number": "WP3",
+      "product_dimensions": "2 x 2 x 1 inches; 6.4 ounces",
+      "date_first_available": "October 21, 2021"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B09JZKK3KS",
+    "scraped_at": "2025-07-18 11:29:57"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

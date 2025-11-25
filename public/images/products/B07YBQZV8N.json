@@ -1,0 +1,37 @@
+{
+  "product": {
+    "name": "Swiss Madison SM-WC124 In Wall Bidet Carrier System",
+    "brand": "Swiss Madison",
+    "price": "129.35",
+    "rating": "4.4",
+    "reviews_count": "14",
+    "description": "Necessary for wall-hung bidet installation the Concealed In-Wall Bidet Carrier is a durable and dependable choice. An adjustable steel frame allows a broad selection of mounting heights for bidets paired with it.",
+    "bullet_points": "• Concealed In-Wall Installation: This In-Wall System Allows For A Sleek And Stylish Look For A Wall-Hung Toilet.\n• Steel Frame: Allows A Broad Selection Of Mounting Heights For Bidets Paired With It.\n• Weight Capacity: 500 Pounds.\n• Adjustable Height: When Installing The In-Wall Tank Carrier System, Adjust The Carriers Legs To Achieve The Desired Height Level.\n• Part Of The Fantome B Collection, Explore Additional Products In This Collection To Complete The Room.",
+    "features": [
+      "Concealed In-Wall Installation: This In-Wall System Allows For A Sleek And Stylish Look For A Wall-Hung Toilet.",
+      "Steel Frame: Allows A Broad Selection Of Mounting Heights For Bidets Paired With It.",
+      "Weight Capacity: 500 Pounds.",
+      "Adjustable Height: When Installing The In-Wall Tank Carrier System, Adjust The Carriers Legs To Achieve The Desired Height Level.",
+      "Part Of The Fantome B Collection, Explore Additional Products In This Collection To Complete The Room."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/614aWZfS3KL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614vNzFpK8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/614vNzFpK8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61N92vTq3gL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61N92vTq3gL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Assembled Diameter",
+      "value": "6 Inches"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B07YBQZV8N",
+    "scraped_at": "2025-07-18 11:28:02"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

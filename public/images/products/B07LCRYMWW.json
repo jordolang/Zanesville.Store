@@ -1,0 +1,33 @@
+{
+  "product": {
+    "name": "Golden Lighting 3602-FM BLK-SF Duncan Flush Mount, Matte Black with Seafoam Shade",
+    "brand": "Golden Lighting",
+    "price": "79.99",
+    "rating": "0",
+    "reviews_count": "0",
+    "description": "Transform the look of your room with this classic, vintage-inspired fixture by Golden Lighting. Golden Lighting's Duncan collection is contemporary style with an industrial feel. The collection features a variety of simple, traditional silhouettes that are a nod to a bygone era. A variety of plated and painted metal shade finishes are offered in combination with durable Aged Brass, Black, Chrome or Pewter fixture bodies. The style is perfect for modern or contemporary home decors.",
+    "bullet_points": "• Contemporary style with an industrial feel\n• Simple, classic silhouette\n• Fixture body available in Aged Brass, Black, Rubbed Bronze, Chrome and Pewter\n• Open-bottom shade\n• Low-profile design",
+    "features": [
+      "Contemporary style with an industrial feel",
+      "Simple, classic silhouette",
+      "Fixture body available in Aged Brass, Black, Rubbed Bronze, Chrome and Pewter",
+      "Open-bottom shade",
+      "Low-profile design"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61nInW2EL+L._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Warranty Description",
+      "value": "1 year manufacturer limited."
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B07LCRYMWW",
+    "scraped_at": "2025-07-18 11:41:08"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

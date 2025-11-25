@@ -1,0 +1,35 @@
+{
+  "product": {
+    "name": "allen + roth 3-Light Merington Brushed Nickel Standard Bathroom Vanity Light",
+    "brand": "allen + roth",
+    "price": "0.00",
+    "rating": "3.8",
+    "reviews_count": "30",
+    "description": "Specifications Collection Name: Merington Type: Vanity light bar Number of Lights: 3 Style: Transitional Theme: N/A Shape: N/A Length (Inches): 21.5 Height (Inches): 9 Depth (Inches): 5.5 Weight (lbs.): 7 Shade Included: Yes Lighting Direction: Up/downlighting Fitter Type: N/A Fixture Material: Metal Shade Material: Glass Glass Type: N/A Frosted Glass: Yes Bulbs Included: No Number of Bulbs Required: 3 Number of Bulbs Included: 0 Maximum Bulb Wattage (or Equivalent): 60 Bulb Type: Standard Light Bulb Base Type: Medium base (E-26) Recommended Light Bulb Shape: A19 Dimmable: No Mounting Hardware Included: Yes For Use in Kitchens: No For Use in Dining Rooms: No For Use in Bathrooms: Yes For Use in Foyers: No For Use in Bedrooms: No For Use in Living Rooms: No UL Safety Listing: No CSA Safety Listing: No ETL Safety Listing: Yes ADA Approved: No Usage Rating: Damp rated ENERGY STAR Certified: No Shade Color: Frosted Opal Fixture Color Family: Nickel Fixture Finish: Brushed Manufacturer Color/Finish: Brushed Nickel Power Source: Hardwired",
+    "bullet_points": "• This Merington collection vanity light is the perfect addition to your bathroom remodel. Features 3 hand painted glass shades to add beauty and warmth.\n• Brushed nickel finish bathroom vanity light from the Merington collection offers a clean, timeless look\n• Frosted opal glass shades create a soft, warm glow; Great for transitional style decor\n• Three 60-watt A19 bulbs required (sold separately); Mounting hardware included for an easy installation\n• Can be installed facing up or down to suit your preference; Damp rated for use in bathrooms",
+    "features": [
+      "This Merington collection vanity light is the perfect addition to your bathroom remodel. Features 3 hand painted glass shades to add beauty and warmth.",
+      "Brushed nickel finish bathroom vanity light from the Merington collection offers a clean, timeless look",
+      "Frosted opal glass shades create a soft, warm glow; Great for transitional style decor",
+      "Three 60-watt A19 bulbs required (sold separately); Mounting hardware included for an easy installation",
+      "Can be installed facing up or down to suit your preference; Damp rated for use in bathrooms"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/31HInum9GLL._AC_.jpg",
+      "https://m.media-amazon.com/images/I/41hPjd-xF+L._AC_.jpg",
+      "https://m.media-amazon.com/images/I/41fnaAFVvoL._AC_.jpg"
+    ],
+    "specifications": {
+      "name": "Bulb Features",
+      "value": "Number of Bulbs Required: 3; Maximum Bulb Wattage (or Equivalent): 60; Bulb Type: Standard; Light Bulb Base Type: Medium base (E-26); Recommended Light Bulb Shape: A19"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B00TN4FRAW",
+    "scraped_at": "2025-07-18 11:26:51"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 5
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "product": {
+    "name": "Amazon Essentials Hoodie For Men, Sherpa-Lined Full-Zip Fleece Sweatshirt",
+    "brand": "Amazon Essentials",
+    "price": "20.71",
+    "rating": "4.6",
+    "reviews_count": "31986",
+    "description": "This sherpa hoodie for men offers a regular fit, providing an easy fit through the shoulders, chest, and waist. Crafted from an 8.3 oz brushed-back cotton-polyester blend, this men's full zip hoodie ensures warmth with its cozy sherpa-lined hood and body. The sleeves, lined with jersey, add an extra layer of comfort, making these essential hoodies perfect for chilly days. The hoodie features a full-length front zipper and stylish details, including metal grommets, a drawcord on the hood, and front pockets for practicality. Rib trim at the hem and cuffs enhances the fit and look. We value customer feedback and meticulously refine every aspect to make men’s hoodies of superior comfort, quality, and durability at an affordable price.",
+    "bullet_points": "• INCREASED COMFORT: The men's fleece hoodie has a regular fit through the shoulders, chest, and waist\n• EXTRA WARMTH: The brushed fleece fabric and cozy sherpa lining in this men's hoodie maintain warmth\n• CLASSIC STYLE: Featuring a full-length front zipper and front pockets, this men's zip-up hoodie is a versatile staple in any wardrobe\n• DURABLE DETAILS: Designed with metal grommets, a drawcord hood, and sturdy rib trim, this men's zip-up hoodie offers durability and long-lasting wear\n• QUALITY MATERIALS: This essentials hoodie is made from an 8.3 oz cotton-polyester fleece blend",
+    "features": [
+      "INCREASED COMFORT: The men's fleece hoodie has a regular fit through the shoulders, chest, and waist",
+      "EXTRA WARMTH: The brushed fleece fabric and cozy sherpa lining in this men's hoodie maintain warmth",
+      "CLASSIC STYLE: Featuring a full-length front zipper and front pockets, this men's zip-up hoodie is a versatile staple in any wardrobe",
+      "DURABLE DETAILS: Designed with metal grommets, a drawcord hood, and sturdy rib trim, this men's zip-up hoodie offers durability and long-lasting wear",
+      "QUALITY MATERIALS: This essentials hoodie is made from an 8.3 oz cotton-polyester fleece blend"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/81vUhRnJijL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81MRIwACifL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91eZVkEx4wL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81QXbrb3xSL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81CmosrZXhL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91Ne0bXftUL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81TTulsP2ML._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B079P8TNXJ",
+      "department": "mens",
+      "manufacturer": "Amazon Essentials",
+      "best_sellers_rank": "#13 in Men's Fashion Hoodies & Sweatshirts",
+      "item_model_number": "MAE50004FL18",
+      "package_dimensions": "15.98 x 14.13 x 4.02 inches; 1.5 Pounds",
+      "date_first_available": "January 15, 2020"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B079P6P16Q",
+    "scraped_at": "2025-07-18 11:33:30"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}

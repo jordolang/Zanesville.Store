@@ -1,0 +1,34 @@
+{
+  "product": {
+    "name": "Waveshare 7inch HDMI LCD B for Various Systems Raspberry Pi/Raspberry Pi 3 Model B+ 800x480 Rev3.1 Capacitive Touch Screen LCD Display HDMI Interface.",
+    "brand": "waveshare",
+    "price": "49.99",
+    "rating": "3.5",
+    "reviews_count": "73",
+    "description": "7 inch Capacitive Touch Screen LCD, HDMI interface, with a resolution of 800×480and a capacitive touch panel, which supports Raspberry Pi and can also be used as a computer monitor.\n\nThis LCD can support Windows 7/8/8.1/10/11 system.\nHow to use:\n1) Turn on the backlight switch on the back of the LCD.\n2) Connect the Touch interface of the LCD to the USB interface of the PC. Wait for a while, the windows will automatically recognize the touch function.\n3) Connect the HDMI interface of the LCD to the HDMI interface of the PC.\nNote: 1) When the computer is connected to several different displays at the same time, only this LCD can be used to control the cursor on the main display, so we recommended to set this LCD as the main display. 2) Some PCs do not support plug-and-play with HDMI devices. Generally, they can be used normally after restarting the system. 3) Some PCs may cause LCD flickering due to insufficient power supply through the USB interface. Generally, they can be used normally after connecting to an external 5V/2A power supply through the DC interface.\nThis LCD can support Raspberry Pi OS / Ubuntu / Kali and Retropie systems. When the LCD works on systems such as Raspberry Pi OS, the resolution must be set manually, otherwise, it will cause an abnormal display.\nPlease download the latest version of the image on the Raspberry Pi official website.\n1) Download the compressed file to the PC, and unzip it to get the .img file.\n2) Connect the TF card to the PC, use SDFormatter software to format the TF card.\n3) Open the Win32DiskImager software, select the system image downloaded in step 1, and click‘Write’ to write the system image.\n4) After the image has finished writing, open the config.txt file in the root directory of the TF card, add the following code at the end of config.txt, then save and quit the TF card safely.\n5) Insert the TF card into the Raspberry Pi\n6) Turn on the backlight switch on the back of the LCD.\n7) Connect the Touch interface of the LCD to the USB interface of the Raspberry Pi.\n8) Connect the HDMI interface of the LCD to the HDMI interface of the Raspberry Pi, power on the Raspberry Pi, and wait for a few seconds until the LCD displays normally.",
+    "bullet_points": "• 800x480 hardware resolution Capacitive touch control\n• Supports popular mini PCs such as Raspberry Pi, as well as general desktop computers\n• When works with Raspberry Pi, supports Raspbian/Ubuntu/Kali/Retropie/WIN10 IOT, driver free\n• When work as a computer monitor, supports Windows 10/8.1/8/7, five-points touch, and driver free\n• Backlight can be turned off to lower power consumption",
+    "features": [
+      "800x480 hardware resolution Capacitive touch control",
+      "Supports popular mini PCs such as Raspberry Pi, as well as general desktop computers",
+      "When works with Raspberry Pi, supports Raspbian/Ubuntu/Kali/Retropie/WIN10 IOT, driver free",
+      "When work as a computer monitor, supports Windows 10/8.1/8/7, five-points touch, and driver free",
+      "Backlight can be turned off to lower power consumption"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61BMXx4yURL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71W865DcbwL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "name": "Date First Available",
+      "value": "July 27, 2016"
+    },
+    "availability": "",
+    "url": "https://www.amazon.com/dp/B01HPV6RUS",
+    "scraped_at": "2025-07-18 11:29:19"
+  },
+  "metadata": {
+    "extraction_successful": true,
+    "error_message": null,
+    "fields_extracted": 6
+  }
+}
