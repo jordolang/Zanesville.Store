@@ -26,66 +26,42 @@ const Hero = () => {
           <div className="xl:max-w-[393px] w-full">
             <div className="flex flex-col sm:flex-row xl:flex-col gap-5">
               <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
-                <div className="flex items-center gap-14">
+                <div className="flex flex-col justify-center h-full">
                   <div>
-                    <h2 className="max-w-[153px] font-semibold text-dark text-xl mb-20">
-                      <a href="#"> iPhone 14 Plus & 14 Pro Max </a>
+                    <h2 className="font-semibold text-dark text-xl mb-4">
+                      <a href="/shop-with-sidebar"> New Arrivals Daily </a>
                     </h2>
 
                     <div>
                       <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
-                        limited time offer
+                        Fresh inventory from furniture to electronics
                       </p>
-                      <span className="flex items-center gap-3">
-                        <span className="font-medium text-heading-5 text-red">
-                          $699
-                        </span>
-                        <span className="font-medium text-2xl text-dark-4 line-through">
-                          $999
+                      <span className="flex items-center gap-3 mt-4">
+                        <span className="font-medium text-lg text-blue">
+                          Shop Now →
                         </span>
                       </span>
                     </div>
-                  </div>
-
-                  <div>
-                    <Image
-                      src="/images/hero/hero-02.png"
-                      alt="mobile image"
-                      width={123}
-                      height={161}
-                    />
                   </div>
                 </div>
               </div>
               <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
-                <div className="flex items-center gap-14">
+                <div className="flex flex-col justify-center h-full">
                   <div>
-                    <h2 className="max-w-[153px] font-semibold text-dark text-xl mb-20">
-                      <a href="#"> Wireless Headphone </a>
+                    <h2 className="font-semibold text-dark text-xl mb-4">
+                      <a href="/shop-with-sidebar"> Quality Merchandise </a>
                     </h2>
 
                     <div>
                       <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
-                        limited time offer
+                        Home goods, decor, and more at great prices
                       </p>
-                      <span className="flex items-center gap-3">
-                        <span className="font-medium text-heading-5 text-red">
-                          $699
-                        </span>
-                        <span className="font-medium text-2xl text-dark-4 line-through">
-                          $999
+                      <span className="flex items-center gap-3 mt-4">
+                        <span className="font-medium text-lg text-blue">
+                          Browse Catalog →
                         </span>
                       </span>
                     </div>
-                  </div>
-
-                  <div>
-                    <Image
-                      src="/images/hero/hero-01.png"
-                      alt="mobile image"
-                      width={123}
-                      height={161}
-                    />
                   </div>
                 </div>
               </div>

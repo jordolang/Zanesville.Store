@@ -38,13 +38,13 @@ const Header = () => {
 
   const options = [
     { label: "All Categories", value: "0" },
-    { label: "Desktop", value: "1" },
-    { label: "Laptop", value: "2" },
-    { label: "Monitor", value: "3" },
-    { label: "Phone", value: "4" },
-    { label: "Watch", value: "5" },
-    { label: "Mouse", value: "6" },
-    { label: "Tablet", value: "7" },
+    { label: "Furniture", value: "1" },
+    { label: "Home Decor", value: "2" },
+    { label: "Bedding & Textiles", value: "3" },
+    { label: "Electronics", value: "4" },
+    { label: "Lighting", value: "5" },
+    { label: "Apparel", value: "6" },
+    { label: "Pet Supplies", value: "7" },
   ];
 
   return (
@@ -145,10 +145,10 @@ const Header = () => {
 
               <div>
                 <span className="block text-2xs text-dark-4 uppercase">
-                  24/7 SUPPORT
+                  CONTACT US
                 </span>
                 <p className="font-medium text-custom-sm text-dark">
-                  (+965) 7492-3477
+                  (740) 555-1234
                 </p>
               </div>
             </div>

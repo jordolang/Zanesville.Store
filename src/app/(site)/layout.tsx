@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import "../css/euclid-circular-a-font.css";
 import "../css/style.css";
 import Header from "../../components/Header";
@@ -52,6 +53,7 @@ export default function RootLayout({
             <Footer />
           </>
         )}
+        <Analytics />
       </body>
     </html>
   );
