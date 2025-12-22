@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import prisma from "@/lib/prisma";
+import { getFirstImage, calculateDiscount } from "@/lib/productUtils";
 
 const PromoBanner = async () => {
   // Fetch products with good discounts for promo banners
@@ -19,18 +20,6 @@ const PromoBanner = async () => {
       category: true,
     },
   });
-
-  const getFirstImage = (thumbnailUrls: unknown): string => {
-    if (Array.isArray(thumbnailUrls) && thumbnailUrls.length > 0) {
-      return thumbnailUrls[0];
-    }
-    return "/images/products/placeholder.png";
-  };
-
-  const calculateDiscount = (price: number, discountedPrice: number): number => {
-    if (price === 0 || !discountedPrice) return 0;
-    return Math.round(((price - discountedPrice) / price) * 100);
-  };
 
   const [mainProduct, ...sideProducts] = promoProducts;
 
@@ -71,7 +60,7 @@ const PromoBanner = async () => {
 
           <div className="absolute bottom-0 right-4 lg:right-26 -z-1 w-[274px] h-[350px]">
             <Image
-              src={getFirstImage(mainProduct.thumbnailUrls)}
+              src={getFirstImage(mainProduct.thumbnailUrls as string[] | null)}
               alt={mainProduct.title}
               fill
               className="object-contain"
@@ -97,7 +86,7 @@ const PromoBanner = async () => {
               >
                 <div className={`absolute top-1/2 -translate-y-1/2 ${imagePosition} -z-1 w-[200px] h-[200px]`}>
                   <Image
-                    src={getFirstImage(product.thumbnailUrls)}
+                    src={getFirstImage(product.thumbnailUrls as string[] | null)}
                     alt={product.title}
                     fill
                     className="object-contain"

@@ -1,7 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import type { Product as PrismaProduct, Category } from "@prisma/client";
 
 // Import Swiper styles
 import "swiper/css/pagination";
@@ -9,31 +8,41 @@ import "swiper/css";
 
 import Image from "next/image";
 import Link from "next/link";
+import { getFirstImage, calculateDiscount } from "@/lib/productUtils";
 
-type ProductWithCategory = PrismaProduct & {
-  category: Category | null;
+// Serialized product type (after Prisma data conversion)
+type SerializedCategory = {
+  id: string;
+  name: string;
+  slug: string;
+  description: string | null;
+  createdAt: string;
+  updatedAt: string;
+};
+
+type SerializedProduct = {
+  id: string;
+  title: string;
+  slug: string;
+  description: string | null;
+  price: number;
+  discountedPrice: number | null;
+  rating: number | null;
+  thumbnailUrls: string[] | null;
+  createdAt: string;
+  updatedAt: string;
+  categoryId: string | null;
+  category: SerializedCategory | null;
 };
 
 type HeroCarouselProps = {
-  products: ProductWithCategory[];
+  products: SerializedProduct[];
 };
 
 const HeroCarousel = ({ products }: HeroCarouselProps) => {
   if (!products || products.length === 0) {
     return null;
   }
-
-  const getFirstImage = (thumbnailUrls: unknown): string => {
-    if (Array.isArray(thumbnailUrls) && thumbnailUrls.length > 0) {
-      return thumbnailUrls[0];
-    }
-    return "/images/products/placeholder.png";
-  };
-
-  const calculateDiscount = (price: number, discountedPrice: number): number => {
-    if (price === 0 || !discountedPrice) return 0;
-    return Math.round(((price - discountedPrice) / price) * 100);
-  };
 
   return (
     <Swiper
@@ -50,8 +59,8 @@ const HeroCarousel = ({ products }: HeroCarouselProps) => {
       className="hero-carousel"
     >
       {products.map((product) => {
-        const price = Number(product.price);
-        const discountedPrice = Number(product.discountedPrice || product.price);
+        const price = product.price;
+        const discountedPrice = product.discountedPrice || product.price;
         const discount = calculateDiscount(price, discountedPrice);
         const imageUrl = getFirstImage(product.thumbnailUrls);
         const shortDescription = product.description

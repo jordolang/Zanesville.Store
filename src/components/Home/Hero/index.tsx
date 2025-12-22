@@ -6,7 +6,7 @@ import prisma from "@/lib/prisma";
 
 const Hero = async () => {
   // Fetch featured products with good discounts and ratings
-  const featuredProducts = await prisma.product.findMany({
+  const featuredProductsRaw = await prisma.product.findMany({
     take: 3,
     where: {
       discountedPrice: { not: null },
@@ -20,6 +20,23 @@ const Hero = async () => {
       category: true,
     },
   });
+
+  // Serialize Prisma data for client component
+  // Convert Decimal to number, Date to ISO string to avoid serialization errors
+  const featuredProducts = featuredProductsRaw.map((product) => ({
+    ...product,
+    price: Number(product.price),
+    discountedPrice: product.discountedPrice ? Number(product.discountedPrice) : null,
+    rating: product.rating ? Number(product.rating) : null,
+    createdAt: product.createdAt.toISOString(),
+    updatedAt: product.updatedAt.toISOString(),
+    category: product.category ? {
+      ...product.category,
+      createdAt: product.category.createdAt.toISOString(),
+      updatedAt: product.category.updatedAt.toISOString(),
+    } : null,
+  }));
+
   return (
     <section className="overflow-hidden pb-10 lg:pb-12.5 xl:pb-15 pt-57.5 sm:pt-45 lg:pt-30 xl:pt-51.5 bg-[#E5EAF4]">
       <div className="max-w-[1170px] w-full mx-auto px-4 sm:px-8 xl:px-0">
