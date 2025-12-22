@@ -8,7 +8,7 @@ const CounDown = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "December, 31, 2024";
+  const deadline = "December, 31, 2025";
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
@@ -36,10 +36,10 @@ const CounDown = () => {
             </span>
 
             <h2 className="font-bold text-dark text-xl lg:text-heading-4 xl:text-heading-3 mb-3">
-              Enhance Your Music Experience
+              New Year Clearance Sale
             </h2>
 
-            <p>The Havit H206d is a wired PC headphone.</p>
+            <p>Huge discounts on furniture, electronics, home decor and more! Limited time offer.</p>
 
             {/* <!-- Countdown timer --> */}
             <div
@@ -104,10 +104,10 @@ const CounDown = () => {
             {/* <!-- Countdown timer ends --> */}
 
             <a
-              href="#"
+              href="/shop-with-sidebar"
               className="inline-flex font-medium text-custom-sm text-white bg-blue py-3 px-9.5 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
             >
-              Check it Out!
+              Shop Now!
             </a>
           </div>
 
