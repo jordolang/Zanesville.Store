@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const CounDown = () => {
   const [days, setDays] = useState(0);
@@ -103,12 +104,12 @@ const CounDown = () => {
             </div>
             {/* <!-- Countdown timer ends --> */}
 
-            <a
+            <Link
               href="/shop-with-sidebar"
               className="inline-flex font-medium text-custom-sm text-white bg-blue py-3 px-9.5 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
             >
               Shop Now!
-            </a>
+            </Link>
           </div>
 
           {/* <!-- bg shapes --> */}
