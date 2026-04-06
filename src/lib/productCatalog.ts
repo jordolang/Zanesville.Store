@@ -8,8 +8,27 @@ type DbProduct = PrismaProduct & {
   category?: Category | null;
 };
 
+type SortOption = "latest" | "best-selling" | "oldest";
+
 type ProductQueryOptions = {
   take?: number;
+  skip?: number;
+  sort?: SortOption;
+};
+
+type PaginatedProducts = {
+  data: Product[];
+  meta: {
+    total: number;
+    page: number;
+    limit: number;
+  };
+};
+
+const SORT_MAP: Record<SortOption, Record<string, string>> = {
+  latest: { createdAt: "desc" },
+  "best-selling": { reviews: "desc" },
+  oldest: { createdAt: "asc" },
 };
 
 const toStringArray = (value: unknown): string[] => {
@@ -41,16 +60,28 @@ export const mapDbProductToProduct = (product: DbProduct): Product => {
   };
 };
 
-export async function getProducts(options?: ProductQueryOptions): Promise<Product[]> {
-  const query: Parameters<typeof prisma.product.findMany>[0] = {
-    include: { category: true },
-    orderBy: { createdAt: "desc" },
+export async function getProducts(options?: ProductQueryOptions): Promise<PaginatedProducts> {
+  const sort = options?.sort ?? "latest";
+  const orderBy = SORT_MAP[sort] ?? SORT_MAP.latest;
+  const take = typeof options?.take === "number" ? options.take : 48;
+  const skip = typeof options?.skip === "number" ? options.skip : 0;
+
+  const [products, total] = await Promise.all([
+    prisma.product.findMany({
+      include: { category: true },
+      orderBy,
+      take,
+      skip,
+    }),
+    prisma.product.count(),
+  ]);
+
+  return {
+    data: products.map(mapDbProductToProduct),
+    meta: {
+      total,
+      page: Math.floor(skip / take) + 1,
+      limit: take,
+    },
   };
-
-  if (typeof options?.take === "number") {
-    query.take = options.take;
-  }
-
-  const products = await prisma.product.findMany(query);
-  return products.map(mapDbProductToProduct);
 }

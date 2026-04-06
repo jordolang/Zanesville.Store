@@ -1,6 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const CustomSelect = ({ options }) => {
+interface SelectOption {
+  label: string;
+  value: string;
+}
+
+interface CustomSelectProps {
+  options: SelectOption[];
+  onChange?: (option: SelectOption) => void;
+}
+
+const CustomSelect = ({ options, onChange }: CustomSelectProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(options[0]);
   const selectRef = useRef(null);
@@ -26,9 +36,10 @@ const CustomSelect = ({ options }) => {
     setIsOpen(!isOpen);
   };
 
-  const handleOptionClick = (option) => {
+  const handleOptionClick = (option: SelectOption) => {
     setSelectedOption(option);
     toggleDropdown();
+    onChange?.(option);
   };
 
   return (
