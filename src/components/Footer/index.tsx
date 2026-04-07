@@ -36,7 +36,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="tel:+17405551234" className="flex items-center gap-4.5">
+                <a href="tel:+17406472461" className="flex items-center gap-4.5">
                   <svg
                     width="24"
                     height="24"
@@ -61,12 +61,12 @@ const Footer = () => {
                       fill="#3C50E0"
                     />
                   </svg>
-                  (740) 555-1234
+                  (740) 647-2461
                 </a>
               </li>
 
               <li>
-                <a href="mailto:info@zanesvillestore.com" className="flex items-center gap-4.5">
+                <a href="mailto:jordan@jlang.dev" className="flex items-center gap-4.5">
                   <svg
                     width="24"
                     height="24"
@@ -81,7 +81,7 @@ const Footer = () => {
                       fill="#3C50E0"
                     />
                   </svg>
-                  info@zanesvillestore.com
+                  jordan@jlang.dev
                 </a>
               </li>
             </ul>

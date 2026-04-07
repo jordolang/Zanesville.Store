@@ -66,8 +66,8 @@ const Header = () => {
               <Image
                 src="/images/logo/zanesville-store-logo.png"
                 alt="Zanesville Store"
-                width={200}
-                height={50}
+                width={180}
+                height={85}
               />
             </Link>
 
@@ -148,7 +148,7 @@ const Header = () => {
                   CONTACT US
                 </span>
                 <p className="font-medium text-custom-sm text-dark">
-                  (740) 555-1234
+                  (740) 647-2461
                 </p>
               </div>
             </div>
