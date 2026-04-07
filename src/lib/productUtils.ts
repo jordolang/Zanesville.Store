@@ -9,12 +9,18 @@
  * @param thumbnailUrls - Array of thumbnail URLs from the database
  * @returns First valid image URL or placeholder
  */
-export const getFirstImage = (thumbnailUrls: string[] | null): string => {
-  // Check if thumbnailUrls is an array and has elements
-  if (Array.isArray(thumbnailUrls) && thumbnailUrls.length > 0) {
-    const firstUrl = thumbnailUrls[0];
-    // Explicit type check to ensure it's a string
-    if (typeof firstUrl === 'string' && firstUrl.trim() !== '') {
+export const getFirstImage = (thumbnailUrls: string[] | string | null): string => {
+  let urls = thumbnailUrls;
+  if (typeof urls === "string") {
+    try {
+      urls = JSON.parse(urls);
+    } catch {
+      return "/images/products/placeholder.png";
+    }
+  }
+  if (Array.isArray(urls) && urls.length > 0) {
+    const firstUrl = urls[0];
+    if (typeof firstUrl === "string" && firstUrl.trim() !== "") {
       return firstUrl;
     }
   }

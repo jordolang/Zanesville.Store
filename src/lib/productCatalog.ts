@@ -32,8 +32,16 @@ const SORT_MAP: Record<SortOption, Record<string, string>> = {
 };
 
 const toStringArray = (value: unknown): string[] => {
-  if (!Array.isArray(value)) return [];
-  return value.filter((item): item is string => typeof item === "string" && item.trim().length > 0).map((item) => item.trim());
+  let arr: unknown = value;
+  if (typeof arr === "string") {
+    try {
+      arr = JSON.parse(arr);
+    } catch {
+      return [];
+    }
+  }
+  if (!Array.isArray(arr)) return [];
+  return arr.filter((item): item is string => typeof item === "string" && item.trim().length > 0).map((item) => item.trim());
 };
 
 export const mapDbProductToProduct = (product: DbProduct): Product => {
