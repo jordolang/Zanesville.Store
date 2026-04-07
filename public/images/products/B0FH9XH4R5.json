@@ -1,0 +1,30 @@
+{
+  "product": {
+    "name": "Amazon Basics Office Chair Mat for Low Pile Carpeted Floors, 46\" x 60\", Clear",
+    "brand": "Amazon Basics",
+    "price": "$51.40",
+    "rating": "4.0",
+    "reviews_count": "147",
+    "description": "An Amazon Brand",
+    "features": [
+      "CARPET-FRIENDLY: Clear, lightweight plastic chair mat protects carpeting and rugs from wear caused by rolling desk chairs; ideal for home or office workspaces",
+      "PROTECTIVE & SMOOTH: Flat plastic mat surface allows for seamless chair movement while defending carpet against snags, spills, and dirt",
+      "STUDDED DESIGN: Desk chair mat with underside grips carpet to prevent slippage and movement",
+      "Made in the USA",
+      "DIMENSIONS: 46in x 60in"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61SmOD1SgJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71X3+a0Sg0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71BbMSM12mL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81asevMsCFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61LYkMDtAxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61b5tjdLuIL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0FH9XH4R5"
+    },
+    "url": "https://www.amazon.com/dp/B0FH9XH4R5",
+    "scraped_at": "2026-04-07T11:12:20.389Z"
+  }
+}

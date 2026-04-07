@@ -1,0 +1,29 @@
+{
+  "product": {
+    "name": "Amazon Essentials Women's Short Sleeve V-Neck Gathered Fit and Flare Dress",
+    "brand": "Amazon Essentials",
+    "price": "",
+    "rating": "4.4",
+    "reviews_count": "576",
+    "description": "An Amazon Brand -This versatile and figure-flattering dress transitions easily from day to night",
+    "features": [],
+    "images": [
+      "https://m.media-amazon.com/images/I/81Eg-H+Er6L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81MaElsby8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91TSobjRYHL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81RHwAuj4NL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61cCHXvQHML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61jm0EDBfLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81V52d9743L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81-016dc-2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71oXzC9txEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61UcRu7aNLL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71uCEmLVw+L._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B09R2DFPLK"
+    },
+    "url": "https://www.amazon.com/dp/B09R2DFPLK",
+    "scraped_at": "2026-04-07T11:03:27.834Z"
+  }
+}

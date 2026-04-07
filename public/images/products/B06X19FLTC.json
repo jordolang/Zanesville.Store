@@ -1,0 +1,32 @@
+{
+  "product": {
+    "name": "Amazon Basics Large Extended Computer Rectangular Mouse Pad, 16.7 x 35.7 inch, Black",
+    "brand": "Amazon Basics",
+    "price": "$13.98",
+    "rating": "4.6",
+    "reviews_count": "64,817",
+    "description": "Product Description               Amazon Basics Large Extended Gaming Computer Mouse Pad - Black                  From the Manufacturer               Amazon Basics",
+    "features": [
+      "Extended gaming mouse pad―ideal for gamers; graphic designers; or anyone who uses a mouse for long sessions",
+      "High-quality cloth surface promotes smooth mouse gliding and enhanced precision",
+      "Steady; thick; rubberized base keeps mouse pad in place",
+      "Machine washable for easy cleaning; large size for optimal gaming; accommodates both a keyboard and mouse",
+      "Measures 35.5 x 16.88 x 0.13 inches (90.17 x 42.88 x 0.33 cm)"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/51XGotAiYYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81mTNBumRIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/A1NRcCTVKRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91fkOTvv4OL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81P9VCFu9bL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81rDBkL7aGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91i28CF0MOL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71o2ghrFt3L._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B06X19FLTC"
+    },
+    "url": "https://www.amazon.com/dp/B06X19FLTC",
+    "scraped_at": "2026-04-07T11:31:23.084Z"
+  }
+}

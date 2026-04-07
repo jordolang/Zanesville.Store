@@ -1,0 +1,23 @@
+{
+  "product": {
+    "name": "Hampton Bay Low-Voltage 20-Watt (Bi-Pin) Black Flood Light",
+    "brand": "Hampton Bay",
+    "price": "$18.99",
+    "rating": "4.6",
+    "reviews_count": "65",
+    "description": "Crafted with cast metal and heat-resistant glass, it features a waterproof seal that enables it to withstand tough weather conditions. With the connector and cable included, you can quickly and safely install the fixture yourself. It gives your home greater curb appeal and improved security at night.",
+    "features": [
+      "Road Flood Light",
+      "Voltage: 10 Volt",
+      "Wattage: 20 Watt"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/91Nu0im26AL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B01IACW0MA"
+    },
+    "url": "https://www.amazon.com/dp/B01IACW0MA",
+    "scraped_at": "2026-04-07T11:15:26.481Z"
+  }
+}

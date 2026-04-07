@@ -1,0 +1,33 @@
+{
+  "product": {
+    "name": "Amazon Basics Foldable Collapsible Shopping Utility Cart with 360-Degree Wheels, Multi-Functional for Sports, Easy Assembly, X-Large, Black",
+    "brand": "Amazon Basics",
+    "price": "$55.91",
+    "rating": "4.4",
+    "reviews_count": "1,954",
+    "description": "An Amazon Brand",
+    "features": [
+      "Foldable shopping utility cart for groceries, laundry, sports equipment, thrift stores, garden centers, and more",
+      "Includes an extra-large shopping utility cart made of durable metal with a black finish; 50-70 pound load capacity",
+      "Ample storage with 2 large baskets, plus a smaller basket that works well for personal items",
+      "Heavy duty wheels with 360-degree swivel front wheels for smooth mobility and easy maneuvering in any direction",
+      "Foam covered handle offers a soft, secure, comfortable grip",
+      "Collapsible for convenient carrying and compact storage",
+      "Quick and easy to assemble",
+      "Product dimensions: 40.2 x 23.3 x 21.1 inches (assembled), 24.2 x 17.7 x 15.5 inches (big basket), 17.5 x 13.9 x 5.9 (small basket), 45.2 x 23.3 x 7.5 inches (folded)"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/71g3TFj7jJL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71O0phK4pxL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81GyvIWaLXL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81299kck3GL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/719XobJsJaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/810ICmI1oFL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B09TPW74KN"
+    },
+    "url": "https://www.amazon.com/dp/B09TPW74KN",
+    "scraped_at": "2026-04-07T11:28:05.667Z"
+  }
+}

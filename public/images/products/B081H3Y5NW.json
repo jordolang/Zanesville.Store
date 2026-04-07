@@ -1,0 +1,33 @@
+{
+  "product": {
+    "name": "Amazon Basics Classic Puresoft PU Padded Mid-Back Office Desk Chair with Armrest, Easy Assembly, Sturdy Metal Base, Wheels, 275lb Support, 26\"D x 23.75\"W x 42\"H, Black",
+    "brand": "Amazon Basics",
+    "price": "$83.99",
+    "rating": "4.2",
+    "reviews_count": "40,256",
+    "description": "Product Description               Amazon Basics Classic Puresoft PU-Padded Mid-Back Office Computer Desk Chair with Armrest - Black                  From the Manufacturer               Amazon Basics",
+    "features": [
+      "VERSATILE USE: Office desk chair for home office, work station, or conference room",
+      "ADJUSTABLE COMFORT: Adjustable seat height, adjustable seat angle, and tilt control for customizable comfort",
+      "STURDY CONSTRUCTION:Supports up to 275 pounds; sturdy KD metal base",
+      "COMFORTABLE DESIGN:Puresoft PU upholstery in Black; contoured padded seat, backrest, and armrests for comfort; durable caster wheels for smooth-rolling mobility",
+      "EASY ASSEMBLY:Assembly instructions included; components (casters, base, arms, seat mechanism, hardware kit) arrive packed in the back cushion",
+      "PRODUCT SPECIFICATIONS: Product Dimensions: 23.75 x 26 x 38.25 - 42 inches (WxDxH); seat width: 19.5 inches; seat depth: 17.75 inches; arm height: 26.25 - 30 inches"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61XrK-bAifL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/918iv4UAH0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/618-spjsgIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/718dX6bTRUL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61cbmydnOpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61c8GF1Ee8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61CJpNcMEvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61f+0P5yATL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B081H3Y5NW"
+    },
+    "url": "https://www.amazon.com/dp/B081H3Y5NW",
+    "scraped_at": "2026-04-07T11:19:13.506Z"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "product": {
+    "name": "Amazon Basics Smart Plug, Works with Alexa Only, 2.4 GHz Wi-Fi, No Hub Required, 4-Pack, White",
+    "brand": "Amazon Basics",
+    "price": "$25.99",
+    "rating": "4.5",
+    "reviews_count": "7,173",
+    "description": "Amazon Basics offers everyday items for your home, office, garden and more. With a selection that continues to grow, the Amazon Basics brand is set to become a part of your daily convenience for electronics products and lifestyle. To see the user manual for Smart Home products, please visit this link: https://www.amazon.com/gp/help/customer/display.html?nodeId=TpjzykKMq8dankfOL1",
+    "features": [
+      "SIMPLE TO SET UP WITH ALEXA: Get started in minutes with multiple setup options, including a zero touch experience when you select \"Link device to your Alexa account\" at checkout",
+      "CONTROL FROM ANYWHERE: Schedule plugged-in appliances like lights or fans to turn on/off automatically, or control them remotely via the Alexa app when you’re away",
+      "COMPACT DESIGN: The plug fits perfectly into 1 socket, leaving remaining sockets and outlets free for use; ideal for multiple appliances like holiday lighting, heaters, fans, lamps, water kettles, coffee makers, and more",
+      "CUSTOMIZE ROUTINES: Schedule your smart plug to turn on/off either at designated times, with a voice command, or even at sunrise and sunset",
+      "NO 3RD PARTY APPS OR HUBS REQUIRED: Set up and manage connected devices directly in the Alexa app; no need for additional smart hubs or 3rd party apps"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/515sebA4zGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71QU4G602FL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81XDLVXA+gL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81UK3dsFlAL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71M8OQVV3tL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71qjdApg7HL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51w4bSjIkKL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51dr96XqaCL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61UGjLBP2VL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51ChDRmEKpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51Az+NTb+JL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0CL9D9HM4"
+    },
+    "url": "https://www.amazon.com/dp/B0CL9D9HM4",
+    "scraped_at": "2026-04-07T10:48:35.445Z"
+  }
+}

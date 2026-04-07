@@ -1,0 +1,31 @@
+{
+  "product": {
+    "name": "Kichler 55087NI Kennewick Vanity, 3-Light 225 Total Watts, Brushed Nickel",
+    "brand": "Kichler",
+    "price": "$174.97",
+    "rating": "5.0",
+    "reviews_count": "6",
+    "description": "B08PHN7DB2",
+    "features": [
+      "Finish: Brushed Nickel - Glass: Clear Seeded",
+      "Lamp Type: Incandescent",
+      "Material: Steel",
+      "Back Plate Width: 4.75\"",
+      "Back Plate Width: 4.75\""
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/41DUd-cmBCL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41t7aXZZAjL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/413MNYyvKaL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/31NZwW2FKxL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41zgUchqwuL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/31CctJhUF6L._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/41V3UOCbUQL._AC_SL1000_.jpg"
+    ],
+    "specifications": {
+      "asin": "B08PHN7DB2"
+    },
+    "url": "https://www.amazon.com/dp/B08PHN7DB2",
+    "scraped_at": "2026-04-07T11:30:33.937Z"
+  }
+}

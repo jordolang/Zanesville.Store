@@ -1,0 +1,31 @@
+{
+  "product": {
+    "name": "Raspberry Pi Screen 7inch Monitor IPS 1024x600 HDMI Capacative 7'' Touch Screen Monitors Compatible with 3B+/3/2 B/B+/ Banana Pi Windows10/8.1/8/7 Driver Free 5-Point Raspberry pi Display",
+    "brand": "Head Sun",
+    "price": "$39.99",
+    "rating": "4.1",
+    "reviews_count": "126",
+    "description": "",
+    "features": [
+      "HD VISUAL ENJOYMENT: Raspberry Pi 7inch touchscreen with HD 1024x600 resolution, 16.7M(8bit) color numbers give high color restore the display. Rectangular ratio 16:9 display format conversion. IPS 170° full wide viewing angle gives you a crystal-clear viewing experience of all your content.",
+      "MULTIPLE APPLICATION: Raspberry pi monitor supports Raspberry/Win7/Win8/Win10(Plug and play), Android/Linux (need to be configured first). ( Note: the HDMI-Micro HDMI cable especially for Raspberry Pi 4, HDMI-HDMI cable for Raspberry Pi 3)",
+      "LOW COMSUMPTION：Low power consumption and have a good effect connect with a Windows computer, no trouble with installing drivers for various systems. Our 7 inch raspberry pi display/touchscreen monitor give your a good using experience.",
+      "WIDE TOUCH AREA: The module size with 164.9(W)X100.0(H)x5.7(T)mm, and the active area is 154.08(W)X 85.92(H)mm. Most of the screens on the market will have these touch problems if the software is not adjusted, but this small HDMI screen/display no worries to reach the side of the screen.",
+      "PLUG & PLAY: The 7inch Raspberry pi monitors, equipped with Micro USB and HDMI port support and connect the screens to the device via the HDMI interface and power it via USB. To achieve the touch function powered by USB, do not require a power cord and drive-free."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/618gYo3KxDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81NGvrCz81L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61WpPY9+KkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71JpWJGN6hS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81SxFrI1rDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71hpFbNRTlL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/814oJoJAf5L._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0BZGW51FY"
+    },
+    "url": "https://www.amazon.com/dp/B0BZGW51FY",
+    "scraped_at": "2026-04-07T10:46:30.817Z"
+  }
+}

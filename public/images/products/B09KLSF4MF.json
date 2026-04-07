@@ -1,0 +1,31 @@
+{
+  "product": {
+    "name": "Art3d PVC 3D Wall Panel, Decorative Wall Tile in White 12-Pack 19.7\"x19.7\"",
+    "brand": "Art3d",
+    "price": "$39.99",
+    "rating": "4.4",
+    "reviews_count": "105",
+    "description": "",
+    "features": [
+      "Eye-catching: The sharp 3D relief of the geometric pattern will catch the eyes of everyone who run into it right away, tranform a dull space to an aesthetic one",
+      "Easy DIY: It's light, thin yet sturdy which make it easy to be processed when it comes to install",
+      "Pack detail: 12-pack of tile with size 19.7\"x19.7\", covers 32 sq.ft",
+      "Installation: Installed by glue or command strips over any smooth and flat substrates",
+      "Versatile Application: It's suitable for residential and commerical to both wall and ceiling decoration"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/71UmQTI65WL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61EHeqkNQvL._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/71NwzI-G1zL._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/51ickbV67iL._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61cr86uhywL._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/51-ZYSC8Y1L._AC_SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/611sB7dzd4L._AC_SL1200_.jpg"
+    ],
+    "specifications": {
+      "asin": "B09KLSF4MF"
+    },
+    "url": "https://www.amazon.com/dp/B09KLSF4MF",
+    "scraped_at": "2026-04-07T11:17:21.229Z"
+  }
+}

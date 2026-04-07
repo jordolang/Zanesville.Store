@@ -1,0 +1,32 @@
+{
+  "product": {
+    "name": "Amazon Basics 2-Pack USB 3.0 Extension Cable, Fast Data Transfer 4.8Gbps, USB-A Male to Female, Gold-Plated Connectors, 3 Foot, Black",
+    "brand": "Amazon Basics",
+    "price": "$9.99",
+    "rating": "4.7",
+    "reviews_count": "44,612",
+    "description": "Product Description               Amazon Basics USB 3.0 Extension Cable - A-Male to A-Female Extender Cord - 3 .3 Feet (2 Pack)                  From the Manufacturer               Amazon Basics",
+    "features": [
+      "IN THE BOX: 3.3-foot USB 3.0 A-male to A-female high-speed extension cable (2-pack)",
+      "CONVENIENT: Extends a USB connection from a computer; ideal for printers, cameras, mice, and other USB computer peripherals",
+      "GOLD-PLATED CONNECTORS: Corrosion-resistant, gold-plated connectors for optimal signal clarity",
+      "PROTECTIVE SHIELDING: Shielding protects against noise, minimizing interference for a clear signal",
+      "USB 3.0: Uses less power, but has increased power output (up to 4.8 Gbit/s); 10X faster compared to USB 2.0"
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61aJvqD+zsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81HPomlQPRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71yFBhpqKQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61EHaw+WdHL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71cGn2xr7oL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51ajqjMk6hL._AC_SL1091_.jpg",
+      "https://m.media-amazon.com/images/I/91D1m6+LIeS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71hTarU1u1L._AC_SL1498_.jpg"
+    ],
+    "specifications": {
+      "asin": "B014RWAMWC"
+    },
+    "url": "https://www.amazon.com/dp/B014RWAMWC",
+    "scraped_at": "2026-04-07T10:49:02.093Z"
+  }
+}

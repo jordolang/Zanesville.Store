@@ -1,0 +1,29 @@
+{
+  "product": {
+    "name": "L'OCCITANE Roll-On Aluminum Free Deodorant, Reduce Body Odor, Refreshing Verbena, Eaves De Baux, Without Alcohol and Aluminum Salts, Made in France",
+    "brand": "",
+    "price": "$23.00",
+    "rating": "4.4",
+    "reviews_count": "4,403",
+    "description": "",
+    "features": [
+      "Reducing body odors",
+      "Perfuming the skin with the sparkling fragrance of Eau de Cédrat",
+      "Known for its perfuming and invigorating properties, its fresh and masculine scent combines sparkling and refreshing notes."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/41oHoxg9twL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/81alMjuGeFL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61nY+ZDO9tL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41OsrVYdCZL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/41KWkXlx60L._SL1280_.jpg",
+      "https://m.media-amazon.com/images/I/511hE63UmKL._SL1200_.jpg",
+      "https://m.media-amazon.com/images/I/61P+gzucf3L._SL1038_.jpg"
+    ],
+    "specifications": {
+      "asin": "B00V53ADGC"
+    },
+    "url": "https://www.amazon.com/dp/B00V53ADGC",
+    "scraped_at": "2026-04-07T10:57:31.005Z"
+  }
+}

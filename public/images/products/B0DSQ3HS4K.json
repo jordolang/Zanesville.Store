@@ -1,0 +1,20 @@
+{
+  "product": {
+    "name": "Gap Womens 90's Straight Fit Denim Jeans",
+    "brand": "GAP",
+    "price": "",
+    "rating": "3.7",
+    "reviews_count": "36",
+    "description": "Modern American Optimism is in our DNA. Since 1969, we have acted as a force for good. Bridging the GAPs between generations, backgrounds, and ideas through the honesty (and hope) of our eternal youthful energy.",
+    "features": [],
+    "images": [
+      "https://m.media-amazon.com/images/I/51O2T7sDMDL._AC_SL1400_.jpg",
+      "https://m.media-amazon.com/images/I/51ut6T96vdL._AC_SL1400_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0DSQ3HS4K"
+    },
+    "url": "https://www.amazon.com/dp/B0DSQ3HS4K",
+    "scraped_at": "2026-04-07T11:00:06.263Z"
+  }
+}

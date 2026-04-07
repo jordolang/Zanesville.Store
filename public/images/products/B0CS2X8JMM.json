@@ -1,0 +1,30 @@
+{
+  "product": {
+    "name": "Aqara LED Ceiling Light T1M,Matter Over Bridge,Requires Zigbee 3.0 HUB,RGB+IC with Gradient Effects and 16 Million Colors,40W 3450lm,2700-6500K Tunable White,Supports HomeKit,Alexa and IFTTT",
+    "brand": "Aqara",
+    "price": "$109.99",
+    "rating": "4.1",
+    "reviews_count": "120",
+    "description": "",
+    "features": [
+      "[Matter Support & Voice Control] An Aqara Zigbee 3.0 Hub is required (Except with the Camera Hub G2H) and sold separately. With an Aqara Zigbee 3.0 hub (Except with the Camera Hub G2H pro), the Ceiling Light T1M features Matter-over-bridge support (a Matter compatible Aqara hub is required) and is also compatible with major third-party platforms, like Apple HomeKit, Google Home, Alexa, IFTTT as well as the Aqara Home app. Voice control is supported for added convenience.",
+      "[2700-6500K RGB CCT & 16 Million Colors] The Ceiling Light T1M features a primary light that spans a broad spectrum of hues (2700-6500K) along with a side light that offers a selection of 16 million colors, allowing you to customize your space with the ideal lighting. Furthermore, the T1M boasts a CRI (Color Rendering Index) above 90, ensuring vibrant and true-to-life hues, showcasing the brilliance of every shade.",
+      "[RGB+IC Status Light Ring & Gradient Effects] The Ceiling Light T1M offers an extensive array of lighting options, catering to various usage scenarios and preferences. With the integrated RGB+IC, the side light of the T1M creates stunning gradient effects, which adds a customized ambiance with vivid color transitions to your room. Additionally, the side light can also be used with other Aqara devices and act as a status indicator for events such as doorbell rings and security disarming.",
+      "[50,000-hour Lifespan & Easy Installation] The T1M's 50,000-hour lifespan ensures reliable long-term lighting and its size of 19.49*19.49*2.96 inch allows it to support rooms of 53.82-215.28 square feet. In addition, designed with a versatile fit, the ceiling light T1M ensures easy installation on various types of ceilings. The additional bracket provides flexible mounting options, making the T1M a hassle-free addition to your space.",
+      "[Zigbee Protocol & Energy Saving] With Zigbee protocol, the Ceiling Light T1M ensures a stable connection and it can act as a mesh repeater, making the Zigbee network more reliable. It also has much lower idle power consumption, which makes it more environmentally- and budget-friendly."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/61VnRlLoBoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71fuAgKmENL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ogSGfh3LL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61D3LYBWAIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71TZKn-VdBL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/51XyaZuCGvL._AC_SL1024_.jpg"
+    ],
+    "specifications": {
+      "asin": "B0CS2X8JMM"
+    },
+    "url": "https://www.amazon.com/dp/B0CS2X8JMM",
+    "scraped_at": "2026-04-07T11:10:52.878Z"
+  }
+}

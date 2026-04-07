@@ -1,0 +1,30 @@
+{
+  "product": {
+    "name": "Blink Mini - Compact indoor plug-in smart security camera, 1080p HD video, night vision, motion detection, two-way audio, easy set up, Works with Alexa – 1 camera (White)",
+    "brand": "Blink",
+    "price": "$24.99",
+    "rating": "4.4",
+    "reviews_count": "309,116",
+    "description": "",
+    "features": [
+      "Monitor the inside of your home day and night with our 1080P HD indoor plug-in smart security camera with motion detection and two-way audio.",
+      "See, hear, and speak to people and pets in your home from your smartphone with Blink Mini’s live view and two-way audio.",
+      "Get alerts on your smartphone whenever motion is detected or customize motion detection zones so you can see what matters most.",
+      "Use Mini as an indoor plug-in chime for Blink Video Doorbell. Hear a real-time alert from Mini when someone presses your Video Doorbell.",
+      "Choose to save and share clips with a free 30-day trial of the Blink Subscription Plan or locally with the Sync Module 2 (sold separately).",
+      "Set up in minutes — plug in the camera, connect it to wifi, and follow the instructions in the free Blink Home Monitor app.",
+      "Get more from Blink with Alexa — Connect your device to stream video on Echo Show, get instant alerts, control security features by voice, and hear and speak to people hands-free.",
+      "Include 1 Blink Mini camera (white), mounting kit including stand, USB cable, and power adapter."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/51vncWY4ROL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/516ApYij-LL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51nZZn3MymL._AC_SL1000_.jpg"
+    ],
+    "specifications": {
+      "asin": "B07X6C9RMF"
+    },
+    "url": "https://www.amazon.com/dp/B07X6C9RMF",
+    "scraped_at": "2026-04-07T10:53:35.444Z"
+  }
+}

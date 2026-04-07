@@ -1,0 +1,41 @@
+{
+  "product": {
+    "name": "Regalo Safety 29-56\" Extra Wide Baby Gate for Doorways & Bottom of Stairs, Pressure Mounted Baby Gate with Door for Babies, Toddlers & Pets, Tested & Safe for 30 Years, American Designed and Owned",
+    "brand": "Regalo",
+    "price": "$58.58",
+    "rating": "4.5",
+    "reviews_count": "171,206",
+    "description": "Product Description               Designed by parents, for parents, this extra wide baby safety gate from Regalo helps create a safer home for babies, toddlers, and pets. American designed and American owned, Regalo is a family-owned, U.S.-based brand that has delivered trusted child safety products for over 30 years. This tested and trusted baby gate is certified by the Baby Safety Alliance and has been relied on by parents for decades to help protect children in everyday home environments. Built with durability and ease of use in mind, this safety gate provides dependable protection without sacrificing convenience. The extra wide safety gate for doorways and bottom of stairs adjusts to fit openings 29 to 56 inches wide and stands 30 inches tall. Designed for simple setup, installs according to the manufacturer’s instructions. Wall cups must be used to keep the gate securely in place. ⚠️ To help prevent falls, this gate should never be used at the top of stairs. This child and pet safety gate features a convenient walk-through door with a secure safety locking system, making it easy for adults to pass through while helping keep babies safe. Ideal for children 6–24 months and small to medium pets, this gate works well as both a baby gate and pet gate. Puerta de seguridad para bebés y mascotas — esta puerta de seguridad es ideal para bebés de 6 a 24 meses y mascotas pequeñas a medianas. Su diseño práctico con puerta abatible y sistema de cierre seguro ofrece comodidad para los padres y tranquilidad en el hogar. Whether you’re securing doorways or creating safe boundaries inside your home, this Regalo baby safety gate delivers reliable protection, thoughtful design, and trusted quality from a brand parents have depended on for generations.                  Brand Story               By               \n              P.when('A').execute(function(A) {\n                  A.on('a:expander:toggle_description:toggle:collapse', function(data) {\n                    window.scroll(0, data.expander.$expander[0].offsetTop-100);\n                  });\n                });\n            \n                    From the Manufacturer               Wide or narrow openings this one fits them ALL. Introducing the Regalo Extra Wide WIDESPAN safety gate. This sturdy, all metal walk-thru gate accommodates a variety of openings ranging from 29 inches to 56 inches. No need to purchase extra extensions this gate includes a 4, 8, and 12 extension kits. Gate height is 30 inches. The easy to adjust pressure mounting system makes installation quick and easy. When your hands are full the convenient one-hand walk thru design makes your job a little easier. The Regalo WIDESPAN meets all current safety standards. Great for pets too. You will notice a slight gap between the gate door latch and the frame. This is not a defect. Your gate is a pressure mounted gate and this gap will disappear once you tighten your gate in its opening.             See more",
+    "features": [
+      "✅TESTED & TRUSTED BABY SAFETY GATE FOR OVER 30 YEARS: Parent-trusted baby safety product certified by the Baby Safety Alliance. Designed to support everyday baby proofing and safer spaces at home.",
+      "❤️AMERICAN DESIGNED & FAMILY OWNED BABY GATE BRAND: Designed in the USA by parents, for parents. Regalo is a family-owned, US-based brand delivering trusted baby safety gates and child safety products for over 30 years.",
+      "🔒56\" EXTRA WIDE BABY GATE: Expands to fit openings 29–56\" wide and stands 30\" tall. Ideal for bottom of stairs, hallways, and large openings. FITS: 29–32\" no extension, 34–36.5\" with 4\", 37–39\" with 8\", 41.5–44.5\" with 12\", 46.5-49.5\" with 4\"+12\", 49.5-52\" with 8\"+12\", and 53.5–56\" with 4\"+8\"+12\". DOES NOT FIT: 32-34\", 39-41.5\", 44.5-46.5\", or 52-53.5\"",
+      "EASY SETUP WITH PRESSURE MOUNT DESIGN: ⚠️ Install according to manufacturer’s instructions. ⚠️ Wall cups must be used to keep the gate securely in place. ⚠️ To prevent falls, never use at the top of stairs.",
+      "🐾CHILD & PET SAFE | PUERTA DE SEGURIDAD PARA BEBÉS Y MASCOTAS: Walk-through safety gate designed for babies 6–24 months and small to medium pets. Features a secure safety locking system for parent convenience."
+    ],
+    "images": [
+      "https://m.media-amazon.com/images/I/717DKiHiHoL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71NFFgFW5bL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71nbpY-d0AL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Dj4tOw2dL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Z64grgtsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/712F4ZvhYYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71NIOXweFHL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61RZVLVTu1L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/813pzjnlpZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91lHfy5rNQL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61rLUeDTmfL._AC_SL1048_.jpg",
+      "https://m.media-amazon.com/images/I/61vUvtejXrL._AC_SL1331_.jpg",
+      "https://m.media-amazon.com/images/I/81ip-do9jzL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81CF-dS7-pL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81IGZRbP5lL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91PYpLPnGZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91IxCaHGAsL._AC_SL1500_.jpg"
+    ],
+    "specifications": {
+      "asin": "B003VNKLHA"
+    },
+    "url": "https://www.amazon.com/dp/B003VNKLHA",
+    "scraped_at": "2026-04-07T10:42:09.494Z"
+  }
+}
