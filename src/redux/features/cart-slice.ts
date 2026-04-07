@@ -1,11 +1,7 @@
 import { createSelector, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 
-type InitialState = {
-  items: CartItem[];
-};
-
-type CartItem = {
+export type CartItem = {
   id: number;
   title: string;
   price: number;
@@ -15,6 +11,10 @@ type CartItem = {
     thumbnails: string[];
     previews: string[];
   };
+};
+
+type InitialState = {
+  items: CartItem[];
 };
 
 const initialState: InitialState = {

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { getProducts } from "@/lib/productCatalog";
 
 const BestSeller = async () => {
-  const products = await getProducts({ take: 6 });
+  const { data: products } = await getProducts({ take: 6 });
 
   return (
     <section className="overflow-hidden">

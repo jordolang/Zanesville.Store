@@ -5,7 +5,7 @@ import ProductItem from "@/components/Common/ProductItem";
 import { getProducts } from "@/lib/productCatalog";
 
 const NewArrival = async () => {
-  const products = await getProducts({ take: 8 });
+  const { data: products } = await getProducts({ take: 8 });
 
   return (
     <section className="overflow-hidden pt-15">

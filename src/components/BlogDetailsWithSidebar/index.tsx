@@ -8,7 +8,7 @@ import Image from "next/image";
 import { getProducts } from "@/lib/productCatalog";
 
 const BlogDetailsWithSidebar = async () => {
-  const products = await getProducts({ take: 3 });
+  const { data: products } = await getProducts({ take: 3 });
   return (
     <>
       <Breadcrumb

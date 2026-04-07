@@ -9,7 +9,7 @@ import Categories from "../Blog/Categories";
 import { getProducts } from "@/lib/productCatalog";
  
 const BlogGridWithSidebar = async () => {
-  const products = await getProducts({ take: 3 });
+  const { data: products } = await getProducts({ take: 3 });
   const categories = [
     {
       name: "Desktop",

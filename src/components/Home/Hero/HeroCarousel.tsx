@@ -12,26 +12,25 @@ import { getFirstImage, calculateDiscount } from "@/lib/productUtils";
 
 // Serialized product type (after Prisma data conversion)
 type SerializedCategory = {
-  id: string;
+  id: number;
   name: string;
   slug: string;
-  description: string | null;
   createdAt: string;
   updatedAt: string;
 };
 
 type SerializedProduct = {
-  id: string;
+  id: number;
   title: string;
   slug: string;
   description: string | null;
   price: number;
   discountedPrice: number | null;
   rating: number | null;
-  thumbnailUrls: string[] | null;
+  thumbnailUrls: unknown;
   createdAt: string;
   updatedAt: string;
-  categoryId: string | null;
+  categoryId: number | null;
   category: SerializedCategory | null;
 };
 
@@ -62,7 +61,7 @@ const HeroCarousel = ({ products }: HeroCarouselProps) => {
         const price = product.price;
         const discountedPrice = product.discountedPrice || product.price;
         const discount = calculateDiscount(price, discountedPrice);
-        const imageUrl = getFirstImage(product.thumbnailUrls);
+        const imageUrl = getFirstImage(product.thumbnailUrls as string[] | null);
         const shortDescription = product.description
           ? product.description.substring(0, 120) + "..."
           : `Quality ${product.category?.name || "product"} available now at Zanesville Store.`;
