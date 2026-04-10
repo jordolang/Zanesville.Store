@@ -11,7 +11,7 @@ import { useCartModalContext } from "@/app/context/CartSidebarModalContext";
 import Image from "next/image";
 import { useSession, signOut } from "next-auth/react";
 
-const ADMIN_EMAIL = "jordolang@gmail.com";
+const ADMIN_EMAIL = "admin@zanesville.store";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");

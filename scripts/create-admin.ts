@@ -15,6 +15,15 @@ async function main() {
 
   const hashedPassword = await bcrypt.hash(password, 10);
 
+  // Demote any pre-existing admins so only one admin account remains.
+  const demoted = await prisma.user.updateMany({
+    where: {
+      role: "admin",
+      NOT: { email },
+    },
+    data: { role: "user" },
+  });
+
   const user = await prisma.user.upsert({
     where: { email },
     update: {
@@ -24,13 +33,16 @@ async function main() {
     create: {
       email,
       password: hashedPassword,
-      name: "Jordan Lang",
+      name: "Zanesville Store Admin",
       role: "admin",
     },
   });
 
   // eslint-disable-next-line no-console
-  console.log(`Admin user ready: ${user.email} (role=${user.role})`);
+  console.log(
+    `Admin user ready: ${user.email} (role=${user.role}). ` +
+      `Demoted ${demoted.count} previous admin(s).`,
+  );
 }
 
 main()
