@@ -32,11 +32,11 @@ const Footer = () => {
                     />
                   </svg>
                 </span>
-                2010 BeechRock Circle, Zanesville, OH 43701
+                2010 Beechrock Circle, Apt B, Zanesville, OH 43701
               </li>
 
               <li>
-                <a href="tel:+17406472461" className="flex items-center gap-4.5">
+                <a href="tel:+17408196592" className="flex items-center gap-4.5">
                   <svg
                     width="24"
                     height="24"
@@ -61,7 +61,7 @@ const Footer = () => {
                       fill="#3C50E0"
                     />
                   </svg>
-                  (740) 647-2461
+                  (740) 819-6592
                 </a>
               </li>
 
@@ -198,91 +198,45 @@ const Footer = () => {
 
           <div className="w-full sm:w-auto">
             <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
-              Account
+              Browse
             </h2>
 
             <ul className="flex flex-col gap-3.5">
               <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  My Account
+                <a className="ease-out duration-200 hover:text-blue" href="/shop">
+                  Active Inventory
                 </a>
               </li>
               <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  Login / Register
+                <a className="ease-out duration-200 hover:text-blue" href="/sold">
+                  Recently Sold
                 </a>
               </li>
               <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
+                <a className="ease-out duration-200 hover:text-blue" href="/cart">
                   Cart
                 </a>
               </li>
               <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  Wishlist
-                </a>
-              </li>
-              <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  Shop
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="w-full sm:w-auto">
-            <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
-              Quick Link
-            </h2>
-
-            <ul className="flex flex-col gap-3">
-              <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  Refund Policy
-                </a>
-              </li>
-              <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  Terms of Use
-                </a>
-              </li>
-              <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
-                  FAQ’s
-                </a>
-              </li>
-              <li>
-                <a className="ease-out duration-200 hover:text-blue" href="#">
+                <a className="ease-out duration-200 hover:text-blue" href="/contact">
                   Contact
                 </a>
               </li>
             </ul>
           </div>
 
-          <div className="w-full sm:w-auto">
-            <h2 className="mb-7.5 text-custom-1 font-medium text-dark lg:text-right">
-              Store Hours
+          <div className="w-full sm:w-auto max-w-[330px]">
+            <h2 className="mb-7.5 text-custom-1 font-medium text-dark">
+              About This Site
             </h2>
 
-            <ul className="flex flex-col lg:items-end gap-3 text-custom-sm">
-              <li className="lg:text-right">
-                <p className="font-medium">Monday - Friday</p>
-                <p className="text-dark-4">9:00 AM - 6:00 PM</p>
-              </li>
-              <li className="lg:text-right">
-                <p className="font-medium">Saturday</p>
-                <p className="text-dark-4">10:00 AM - 5:00 PM</p>
-              </li>
-              <li className="lg:text-right">
-                <p className="font-medium">Sunday</p>
-                <p className="text-dark-4">Closed</p>
-              </li>
-            </ul>
+            <p className="text-dark-4 text-custom-sm leading-relaxed">
+              This site exists solely to showcase Jordan&apos;s personal
+              inventory as an interactive catalog. You&apos;re welcome to
+              browse, add items to a cart, or reach out — but nothing is
+              charged and nothing ships. To buy something, call or email
+              directly.
+            </p>
           </div>
         </div>
         {/* <!-- footer menu end --> */}

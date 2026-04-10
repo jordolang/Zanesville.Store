@@ -105,7 +105,7 @@ const CounDown = () => {
             {/* <!-- Countdown timer ends --> */}
 
             <Link
-              href="/shop-with-sidebar"
+              href="/shop"
               className="inline-flex font-medium text-custom-sm text-white bg-blue py-3 px-9.5 rounded-md ease-out duration-200 hover:bg-blue-dark mt-7.5"
             >
               Shop Now!

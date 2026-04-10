@@ -164,7 +164,7 @@ export default function CategoriesCarousel({ categories }: { categories: Categor
             {categories.map((category) => (
               <SwiperSlide key={category.id}>
                 <Link
-                  href={`/shop-with-sidebar?category=${category.slug}`}
+                  href={`/shop?category=${category.slug}`}
                   className="group flex flex-col items-center"
                 >
                   <div className="max-w-[130px] w-full bg-[#F2F3F8] h-32.5 rounded-full flex items-center justify-center mb-4 text-6xl">

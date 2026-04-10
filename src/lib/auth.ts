@@ -31,7 +31,7 @@ export const authOptions: NextAuthOptions = {
 
         const isPasswordValid = await bcrypt.compare(
           credentials.password,
-          user.password
+          user.password,
         );
 
         if (!isPasswordValid) {
@@ -43,6 +43,7 @@ export const authOptions: NextAuthOptions = {
           email: user.email,
           name: user.name,
           image: user.image,
+          role: user.role,
         };
       },
     }),
@@ -50,7 +51,6 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/signin",
     signOut: "/",
-    error: "/error",
   },
   session: {
     strategy: "jwt",
@@ -60,14 +60,23 @@ export const authOptions: NextAuthOptions = {
     async jwt({ token, user }) {
       if (user) {
         token.id = user.id;
+        token.role = (user as { role?: string }).role ?? "user";
       }
       return token;
     },
     async session({ session, token }) {
       if (session.user) {
         session.user.id = token.id as string;
+        (session.user as { role?: string }).role =
+          (token.role as string) ?? "user";
       }
       return session;
     },
   },
 };
+
+export function isAdminEmail(email: string | null | undefined): boolean {
+  if (!email) return false;
+  const adminEmail = process.env.ADMIN_EMAIL?.toLowerCase();
+  return !!adminEmail && email.toLowerCase() === adminEmail;
+}

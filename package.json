@@ -13,18 +13,21 @@
     "db:migrate": "prisma migrate dev",
     "db:seed": "prisma db seed",
     "db:seed:enhanced": "tsx prisma/seed-enhanced.ts",
-    "db:seed:unified": "tsx prisma/seed-unified.ts"
+    "db:seed:unified": "tsx prisma/seed-unified.ts",
+    "db:create-admin": "tsx scripts/create-admin.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",
     "@prisma/client": "^6.19.0",
     "@reduxjs/toolkit": "^2.6.1",
     "@stripe/stripe-js": "^8.5.3",
+    "@types/nodemailer": "^8.0.0",
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "10.4.15",
     "bcryptjs": "^3.0.3",
     "next": "15.5.14",
     "next-auth": "^4.24.13",
+    "nodemailer": "^7.0.13",
     "postcss": "8.5.8",
     "react": "19.0.0",
     "react-dom": "19.0.0",

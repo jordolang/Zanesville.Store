@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
-import { getProducts } from "@/lib/productCatalog";
+import { getProducts, type InventoryFilter } from "@/lib/productCatalog";
 
 const MAX_PRODUCTS = 200;
 const VALID_SORTS = ["latest", "best-selling", "oldest"] as const;
 type SortOption = (typeof VALID_SORTS)[number];
+
+const VALID_FILTERS: InventoryFilter[] = ["active", "sold", "all"];
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -25,9 +27,24 @@ export async function GET(request: Request) {
     ? (sortParam as SortOption)
     : "latest";
 
+  const filterParam = searchParams.get("filter") as InventoryFilter | null;
+  const filter: InventoryFilter = VALID_FILTERS.includes(
+    filterParam as InventoryFilter,
+  )
+    ? (filterParam as InventoryFilter)
+    : "active";
+
+  const categorySlug = searchParams.get("category") ?? undefined;
+
   const skip = (safePage - 1) * safeTake;
 
-  const result = await getProducts({ take: safeTake, skip, sort });
+  const result = await getProducts({
+    take: safeTake,
+    skip,
+    sort,
+    filter,
+    categorySlug,
+  });
 
   return NextResponse.json(result);
 }

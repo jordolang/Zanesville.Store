@@ -17,10 +17,7 @@ const nextConfig = {
     "/api/categories": ["./prisma/zanesville-store.db"],
     "/api/auth/register": ["./prisma/zanesville-store.db"],
     "/": ["./prisma/zanesville-store.db"],
-    "/shop-with-sidebar": ["./prisma/zanesville-store.db"],
-    "/shop-without-sidebar": ["./prisma/zanesville-store.db"],
-    "/blogs/blog-grid-with-sidebar": ["./prisma/zanesville-store.db"],
-    "/blogs/blog-details-with-sidebar": ["./prisma/zanesville-store.db"],
+    "/shop": ["./prisma/zanesville-store.db"],
   },
 };
 

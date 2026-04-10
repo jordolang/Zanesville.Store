@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import HeroCarousel from "./HeroCarousel";
 import HeroFeature from "./HeroFeature";
 import Image from "next/image";
@@ -58,48 +59,44 @@ const Hero = async () => {
 
           <div className="xl:max-w-[393px] w-full">
             <div className="flex flex-col sm:flex-row xl:flex-col gap-5">
-              <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
+              <Link
+                href="/shop"
+                className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5 block ease-out duration-200 hover:shadow-md"
+              >
                 <div className="flex flex-col justify-center h-full">
-                  <div>
-                    <h2 className="font-semibold text-dark text-xl mb-4">
-                      <a href="/shop-with-sidebar"> New Arrivals Daily </a>
-                    </h2>
-
-                    <div>
-                      <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
-                        Fresh inventory from furniture to electronics
-                      </p>
-                      <span className="flex items-center gap-3 mt-4">
-                        <span className="font-medium text-lg text-blue">
-                          Shop Now →
-                        </span>
-                      </span>
-                    </div>
-                  </div>
+                  <h2 className="font-semibold text-dark text-xl mb-4">
+                    Browse All Inventory
+                  </h2>
+                  <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
+                    Furniture, decor, electronics, and more — all in stock.
+                  </p>
+                  <span className="flex items-center gap-3 mt-4">
+                    <span className="font-medium text-lg text-blue">
+                      Shop Now →
+                    </span>
+                  </span>
                 </div>
-              </div>
-              <div className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5">
+              </Link>
+
+              <Link
+                href="/contact"
+                className="w-full relative rounded-[10px] bg-white p-4 sm:p-7.5 block ease-out duration-200 hover:shadow-md"
+              >
                 <div className="flex flex-col justify-center h-full">
-                  <div>
-                    <h2 className="font-semibold text-dark text-xl mb-4">
-                      <a href="/shop-with-sidebar"> Quality Merchandise </a>
-                    </h2>
-
-                    <div>
-                      <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
-                        Home goods, decor, and more at great prices
-                      </p>
-                      <span className="flex items-center gap-3 mt-4">
-                        <span className="font-medium text-lg text-blue">
-                          Browse Catalog →
-                        </span>
-                      </span>
-                    </div>
-                  </div>
+                  <h2 className="font-semibold text-dark text-xl mb-4">
+                    Interested in Something?
+                  </h2>
+                  <p className="font-medium text-dark-4 text-custom-sm mb-1.5">
+                    Orders aren&apos;t processed online — reach out directly
+                    to buy.
+                  </p>
+                  <span className="flex items-center gap-3 mt-4">
+                    <span className="font-medium text-lg text-blue">
+                      Contact Jordan →
+                    </span>
+                  </span>
                 </div>
-              </div>
-
-              
+              </Link>
             </div>
           </div>
         </div>
