@@ -11,6 +11,10 @@ type Draft = {
   price: string;
   msrp: string;
   discountedPrice: string;
+  description: string;
+  brand: string;
+  thumbnails: string;
+  previews: string;
 };
 
 type DraftMap = Record<number, Draft>;
@@ -36,6 +40,10 @@ function productToDraft(product: AdminProduct): Draft {
       product.discountedPrice !== null
         ? product.discountedPrice.toString()
         : "",
+    description: product.description ?? "",
+    brand: product.brand ?? "",
+    thumbnails: (product.thumbnailUrls ?? []).join("\n"),
+    previews: (product.previewUrls ?? []).join("\n"),
   };
 }
 
@@ -44,6 +52,13 @@ function toNumberOrNull(value: string): number | null | "invalid" {
   const n = Number.parseFloat(value);
   if (!Number.isFinite(n) || n < 0) return "invalid";
   return n;
+}
+
+function linesToArray(value: string): string[] {
+  return value
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
 }
 
 const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
@@ -59,6 +74,7 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
   });
   const [saveState, setSaveState] = useState<SaveState>({});
   const [globalError, setGlobalError] = useState<string | null>(null);
+  const [expanded, setExpanded] = useState<Record<number, boolean>>({});
 
   const filtered = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -116,6 +132,15 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
             ? {
                 ...product,
                 title: data.data.title ?? product.title,
+                description: data.data.description ?? product.description,
+                brand: data.data.brand ?? product.brand,
+                features: data.data.features ?? product.features,
+                thumbnailUrls:
+                  data.data.thumbnailUrls ?? product.thumbnailUrls,
+                previewUrls: data.data.previewUrls ?? product.previewUrls,
+                thumbnail:
+                  (data.data.thumbnailUrls && data.data.thumbnailUrls[0]) ??
+                  product.thumbnail,
                 price: data.data.price ?? product.price,
                 msrp: data.data.msrp,
                 discountedPrice: data.data.discountedPrice,
@@ -175,6 +200,10 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
       price,
       msrp,
       discountedPrice,
+      description: draft.description,
+      brand: draft.brand.trim() || null,
+      thumbnailUrls: linesToArray(draft.thumbnails),
+      previewUrls: linesToArray(draft.previews),
     });
   };
 
@@ -188,6 +217,10 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
       [product.id]: productToDraft(product),
     }));
     markState(product.id, "idle");
+  };
+
+  const toggleExpanded = (id: number) => {
+    setExpanded((prev) => ({ ...prev, [id]: !prev[id] }));
   };
 
   return (
@@ -267,6 +300,7 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
               {filtered.map((product) => {
                 const draft = drafts[product.id];
                 const state = saveState[product.id] ?? "idle";
+                const isOpen = !!expanded[product.id];
                 const isDirty =
                   draft &&
                   (draft.title !== product.title ||
@@ -278,143 +312,252 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
                     draft.discountedPrice !==
                       (product.discountedPrice !== null
                         ? product.discountedPrice.toString()
-                        : ""));
+                        : "") ||
+                    draft.description !== (product.description ?? "") ||
+                    draft.brand !== (product.brand ?? "") ||
+                    draft.thumbnails !==
+                      (product.thumbnailUrls ?? []).join("\n") ||
+                    draft.previews !==
+                      (product.previewUrls ?? []).join("\n"));
 
                 return (
-                  <tr
-                    key={product.id}
-                    className="border-t border-gray-3 align-top"
-                  >
-                    <td className="px-4 py-3">
-                      <div className="relative w-14 h-14 rounded-md bg-gray-1 overflow-hidden">
-                        <Image
-                          src={product.thumbnail}
-                          alt={product.title}
-                          fill
-                          sizes="56px"
-                          className="object-cover"
-                        />
-                      </div>
-                      <div className="text-xs text-dark-4 mt-1">
-                        #{product.id}
-                      </div>
-                      {product.category && (
-                        <div className="text-xs text-dark-4">
-                          {product.category}
+                  <React.Fragment key={product.id}>
+                    <tr className="border-t border-gray-3 align-top">
+                      <td className="px-4 py-3">
+                        <div className="relative w-14 h-14 rounded-md bg-gray-1 overflow-hidden">
+                          <Image
+                            src={product.thumbnail}
+                            alt={product.title}
+                            fill
+                            sizes="56px"
+                            className="object-cover"
+                          />
                         </div>
-                      )}
-                    </td>
-                    <td className="px-4 py-3 min-w-[240px]">
-                      <input
-                        type="text"
-                        value={draft?.title ?? ""}
-                        onChange={(e) =>
-                          updateDraft(product.id, "title", e.target.value)
-                        }
-                        className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
-                      />
-                    </td>
-                    <td className="px-4 py-3 w-28">
-                      <input
-                        type="number"
-                        inputMode="decimal"
-                        step="0.01"
-                        value={draft?.price ?? ""}
-                        onChange={(e) =>
-                          updateDraft(product.id, "price", e.target.value)
-                        }
-                        className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
-                      />
-                    </td>
-                    <td className="px-4 py-3 w-28">
-                      <input
-                        type="number"
-                        inputMode="decimal"
-                        step="0.01"
-                        value={draft?.msrp ?? ""}
-                        onChange={(e) =>
-                          updateDraft(product.id, "msrp", e.target.value)
-                        }
-                        placeholder="—"
-                        className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
-                      />
-                    </td>
-                    <td className="px-4 py-3 w-28">
-                      <input
-                        type="number"
-                        inputMode="decimal"
-                        step="0.01"
-                        value={draft?.discountedPrice ?? ""}
-                        onChange={(e) =>
-                          updateDraft(
-                            product.id,
-                            "discountedPrice",
-                            e.target.value,
-                          )
-                        }
-                        placeholder="—"
-                        className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
-                      />
-                    </td>
-                    <td className="px-4 py-3">
-                      <span
-                        className={`inline-flex items-center gap-1 px-2 py-1 rounded text-xs font-medium ${
-                          product.active
-                            ? "bg-green/10 text-green"
-                            : "bg-dark-4/10 text-dark-4"
-                        }`}
-                      >
-                        <span
-                          className={`w-1.5 h-1.5 rounded-full ${
-                            product.active ? "bg-green" : "bg-dark-4"
-                          }`}
-                        />
-                        {product.active ? "Active" : "Sold"}
-                      </span>
-                      {!product.active && product.soldAt && (
                         <div className="text-xs text-dark-4 mt-1">
-                          {new Date(product.soldAt).toLocaleDateString()}
+                          #{product.id}
                         </div>
-                      )}
-                    </td>
-                    <td className="px-4 py-3">
-                      <div className="flex flex-col gap-2 min-w-[140px]">
-                        <button
-                          type="button"
-                          onClick={() => handleSave(product)}
-                          disabled={!isDirty || state === "saving"}
-                          className="px-3 py-1.5 rounded-md bg-blue text-white text-xs font-medium hover:bg-blue-dark disabled:opacity-50 disabled:cursor-not-allowed"
-                        >
-                          {state === "saving"
-                            ? "Saving..."
-                            : state === "saved"
-                              ? "Saved ✓"
-                              : "Save"}
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => handleToggleActive(product)}
-                          disabled={state === "saving"}
-                          className={`px-3 py-1.5 rounded-md text-xs font-medium border disabled:opacity-50 ${
+                        {product.category && (
+                          <div className="text-xs text-dark-4">
+                            {product.category}
+                          </div>
+                        )}
+                      </td>
+                      <td className="px-4 py-3 min-w-[240px]">
+                        <input
+                          type="text"
+                          value={draft?.title ?? ""}
+                          onChange={(e) =>
+                            updateDraft(product.id, "title", e.target.value)
+                          }
+                          className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
+                        />
+                      </td>
+                      <td className="px-4 py-3 w-28">
+                        <input
+                          type="number"
+                          inputMode="decimal"
+                          step="0.01"
+                          value={draft?.price ?? ""}
+                          onChange={(e) =>
+                            updateDraft(product.id, "price", e.target.value)
+                          }
+                          className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
+                        />
+                      </td>
+                      <td className="px-4 py-3 w-28">
+                        <input
+                          type="number"
+                          inputMode="decimal"
+                          step="0.01"
+                          value={draft?.msrp ?? ""}
+                          onChange={(e) =>
+                            updateDraft(product.id, "msrp", e.target.value)
+                          }
+                          placeholder="—"
+                          className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
+                        />
+                      </td>
+                      <td className="px-4 py-3 w-28">
+                        <input
+                          type="number"
+                          inputMode="decimal"
+                          step="0.01"
+                          value={draft?.discountedPrice ?? ""}
+                          onChange={(e) =>
+                            updateDraft(
+                              product.id,
+                              "discountedPrice",
+                              e.target.value,
+                            )
+                          }
+                          placeholder="—"
+                          className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none"
+                        />
+                      </td>
+                      <td className="px-4 py-3">
+                        <span
+                          className={`inline-flex items-center gap-1 px-2 py-1 rounded text-xs font-medium ${
                             product.active
-                              ? "border-dark-4 text-dark hover:bg-gray-1"
-                              : "border-blue text-blue hover:bg-blue/5"
+                              ? "bg-green/10 text-green"
+                              : "bg-dark-4/10 text-dark-4"
                           }`}
                         >
-                          {product.active ? "Mark Sold" : "Restore"}
-                        </button>
-                        {isDirty && (
+                          <span
+                            className={`w-1.5 h-1.5 rounded-full ${
+                              product.active ? "bg-green" : "bg-dark-4"
+                            }`}
+                          />
+                          {product.active ? "Active" : "Sold"}
+                        </span>
+                        {!product.active && product.soldAt && (
+                          <div className="text-xs text-dark-4 mt-1">
+                            {new Date(product.soldAt).toLocaleDateString()}
+                          </div>
+                        )}
+                      </td>
+                      <td className="px-4 py-3">
+                        <div className="flex flex-col gap-2 min-w-[140px]">
                           <button
                             type="button"
-                            onClick={() => handleReset(product)}
-                            className="px-3 py-1.5 rounded-md text-xs text-dark-4 hover:text-dark"
+                            onClick={() => handleSave(product)}
+                            disabled={!isDirty || state === "saving"}
+                            className="px-3 py-1.5 rounded-md bg-blue text-white text-xs font-medium hover:bg-blue-dark disabled:opacity-50 disabled:cursor-not-allowed"
                           >
-                            Reset
+                            {state === "saving"
+                              ? "Saving..."
+                              : state === "saved"
+                                ? "Saved ✓"
+                                : "Save"}
                           </button>
-                        )}
-                      </div>
-                    </td>
-                  </tr>
+                          <button
+                            type="button"
+                            onClick={() => handleToggleActive(product)}
+                            disabled={state === "saving"}
+                            className={`px-3 py-1.5 rounded-md text-xs font-medium border disabled:opacity-50 ${
+                              product.active
+                                ? "border-dark-4 text-dark hover:bg-gray-1"
+                                : "border-blue text-blue hover:bg-blue/5"
+                            }`}
+                          >
+                            {product.active ? "Mark Sold" : "Restore"}
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => toggleExpanded(product.id)}
+                            className="px-3 py-1.5 rounded-md text-xs text-blue hover:underline"
+                          >
+                            {isOpen ? "Hide details" : "Edit details"}
+                          </button>
+                          {isDirty && (
+                            <button
+                              type="button"
+                              onClick={() => handleReset(product)}
+                              className="px-3 py-1.5 rounded-md text-xs text-dark-4 hover:text-dark"
+                            >
+                              Reset
+                            </button>
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                    {isOpen && draft && (
+                      <tr className="border-t border-gray-3 bg-gray-1/40">
+                        <td colSpan={7} className="px-4 py-5">
+                          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                            <div>
+                              <label className="block text-xs font-medium text-dark-4 mb-1">
+                                Description
+                              </label>
+                              <textarea
+                                value={draft.description}
+                                onChange={(e) =>
+                                  updateDraft(
+                                    product.id,
+                                    "description",
+                                    e.target.value,
+                                  )
+                                }
+                                rows={8}
+                                className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none text-sm"
+                                placeholder="Write an honest description of this item..."
+                              />
+                              <label className="block text-xs font-medium text-dark-4 mb-1 mt-4">
+                                Brand
+                              </label>
+                              <input
+                                type="text"
+                                value={draft.brand}
+                                onChange={(e) =>
+                                  updateDraft(
+                                    product.id,
+                                    "brand",
+                                    e.target.value,
+                                  )
+                                }
+                                className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none text-sm"
+                                placeholder="Brand (optional)"
+                              />
+                            </div>
+                            <div>
+                              <label className="block text-xs font-medium text-dark-4 mb-1">
+                                Thumbnail image URLs (one per line)
+                              </label>
+                              <textarea
+                                value={draft.thumbnails}
+                                onChange={(e) =>
+                                  updateDraft(
+                                    product.id,
+                                    "thumbnails",
+                                    e.target.value,
+                                  )
+                                }
+                                rows={4}
+                                className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none font-mono text-xs"
+                                placeholder="https://..."
+                              />
+                              <label className="block text-xs font-medium text-dark-4 mb-1 mt-4">
+                                Preview (large) image URLs (one per line)
+                              </label>
+                              <textarea
+                                value={draft.previews}
+                                onChange={(e) =>
+                                  updateDraft(
+                                    product.id,
+                                    "previews",
+                                    e.target.value,
+                                  )
+                                }
+                                rows={4}
+                                className="w-full rounded-md border border-gray-3 px-3 py-2 bg-white focus:ring-2 focus:ring-blue/20 outline-none font-mono text-xs"
+                                placeholder="https://..."
+                              />
+                              {product.thumbnailUrls &&
+                                product.thumbnailUrls.length > 0 && (
+                                  <div className="flex gap-2 mt-3 flex-wrap">
+                                    {product.thumbnailUrls
+                                      .slice(0, 6)
+                                      .map((url, idx) => (
+                                        <div
+                                          key={idx}
+                                          className="relative w-12 h-12 rounded overflow-hidden bg-gray-2 border border-gray-3"
+                                        >
+                                          <Image
+                                            src={url}
+                                            alt={`thumb-${idx}`}
+                                            fill
+                                            sizes="48px"
+                                            className="object-cover"
+                                          />
+                                        </div>
+                                      ))}
+                                  </div>
+                                )}
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    )}
+                  </React.Fragment>
                 );
               })}
             </tbody>

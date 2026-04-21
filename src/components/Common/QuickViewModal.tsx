@@ -302,9 +302,11 @@ const QuickViewModal = () => {
                 </div>
               </div>
 
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has.
+              <p className="line-clamp-4">
+                {product.description
+                  ? product.description.slice(0, 320) +
+                    (product.description.length > 320 ? "..." : "")
+                  : "A used/open-box item from our Zanesville inventory. Tap Details for full description and photos."}
               </p>
 
               <div className="flex flex-wrap justify-between gap-5 mt-6 mb-7.5">

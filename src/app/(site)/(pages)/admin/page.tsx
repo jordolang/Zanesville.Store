@@ -47,8 +47,10 @@ const AdminPage = async () => {
             Inventory Management
           </h1>
           <p className="text-dark-4 mt-2 max-w-2xl">
-            Update titles, prices, and MSRPs, or mark items as sold. Items
-            marked sold move to the{" "}
+            Edit titles, prices, descriptions, brand, and photos, or mark
+            items as sold. Use <strong>Edit details</strong> on any row to
+            update the long description and image URLs. Items marked sold
+            move to the{" "}
             <a href="/sold" className="text-blue hover:underline">
               Recently Sold
             </a>{" "}

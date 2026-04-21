@@ -5,16 +5,37 @@ import prisma from "@/lib/prisma";
 
 type UpdatePayload = {
   title?: unknown;
+  description?: unknown;
+  brand?: unknown;
+  features?: unknown;
   price?: unknown;
   msrp?: unknown;
   discountedPrice?: unknown;
   active?: unknown;
+  thumbnailUrls?: unknown;
+  previewUrls?: unknown;
 };
 
 function toNonEmptyString(value: unknown): string | undefined {
   if (typeof value !== "string") return undefined;
   const trimmed = value.trim();
   return trimmed.length > 0 ? trimmed : undefined;
+}
+
+function toOptionalString(value: unknown): string | null | undefined {
+  if (value === null) return null;
+  if (value === undefined) return undefined;
+  if (typeof value !== "string") return undefined;
+  return value.trim();
+}
+
+function toStringListJson(value: unknown): string | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const cleaned = value
+    .filter((item): item is string => typeof item === "string")
+    .map((item) => item.trim())
+    .filter((item) => item.length > 0);
+  return JSON.stringify(cleaned);
 }
 
 function toDecimalOrNull(value: unknown): number | null | undefined {
@@ -74,6 +95,21 @@ export async function PATCH(
   const title = toNonEmptyString(body.title);
   if (title !== undefined) data.title = title;
 
+  const description = toOptionalString(body.description);
+  if (description !== undefined) data.description = description;
+
+  const brand = toOptionalString(body.brand);
+  if (brand !== undefined) data.brand = brand;
+
+  const featuresJson = toStringListJson(body.features);
+  if (featuresJson !== undefined) data.features = featuresJson;
+
+  const thumbnailUrls = toStringListJson(body.thumbnailUrls);
+  if (thumbnailUrls !== undefined) data.thumbnailUrls = thumbnailUrls;
+
+  const previewUrls = toStringListJson(body.previewUrls);
+  if (previewUrls !== undefined) data.previewUrls = previewUrls;
+
   const price = toDecimalOrNull(body.price);
   if (price !== undefined && price !== null) data.price = price;
 
@@ -100,11 +136,33 @@ export async function PATCH(
       where: { id: productId },
       data,
     });
+
+    const toArray = (value: unknown): string[] => {
+      if (typeof value === "string") {
+        try {
+          const parsed = JSON.parse(value);
+          return Array.isArray(parsed)
+            ? parsed.filter((x): x is string => typeof x === "string")
+            : [];
+        } catch {
+          return [];
+        }
+      }
+      return Array.isArray(value)
+        ? value.filter((x): x is string => typeof x === "string")
+        : [];
+    };
+
     return NextResponse.json({
       success: true,
       data: {
         id: updated.id,
         title: updated.title,
+        description: updated.description,
+        brand: updated.brand,
+        features: toArray(updated.features),
+        thumbnailUrls: toArray(updated.thumbnailUrls),
+        previewUrls: toArray(updated.previewUrls),
         price: Number(updated.price),
         msrp: updated.msrp !== null ? Number(updated.msrp) : null,
         discountedPrice:

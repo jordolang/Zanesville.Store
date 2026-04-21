@@ -68,6 +68,8 @@ export const mapDbProductToProduct = (product: DbProduct): Product => {
     price: Number(product.price),
     discountedPrice: Number(product.discountedPrice ?? product.price),
     description: product.description ?? "",
+    features: toStringArray(product.features),
+    brand: product.brand ?? null,
     category: product.category?.name ?? null,
     slug: product.slug,
     imgs: {
@@ -124,6 +126,9 @@ export type AdminProduct = {
   id: number;
   title: string;
   slug: string;
+  description: string;
+  brand: string | null;
+  features: string[];
   price: number;
   msrp: number | null;
   discountedPrice: number | null;
@@ -131,6 +136,8 @@ export type AdminProduct = {
   soldAt: string | null;
   category: string | null;
   thumbnail: string;
+  thumbnailUrls: string[];
+  previewUrls: string[];
 };
 
 export async function getAdminProducts(
@@ -145,10 +152,14 @@ export async function getAdminProducts(
 
   return products.map((product) => {
     const thumbnails = toStringArray(product.thumbnailUrls);
+    const previews = toStringArray(product.previewUrls);
     return {
       id: product.id,
       title: product.title,
       slug: product.slug,
+      description: product.description ?? "",
+      brand: product.brand ?? null,
+      features: toStringArray(product.features),
       price: Number(product.price),
       msrp: product.msrp !== null ? Number(product.msrp) : null,
       discountedPrice:
@@ -159,6 +170,8 @@ export async function getAdminProducts(
       soldAt: product.soldAt ? product.soldAt.toISOString() : null,
       category: product.category?.name ?? null,
       thumbnail: thumbnails[0] ?? FALLBACK_IMAGE,
+      thumbnailUrls: thumbnails,
+      previewUrls: previews,
     };
   });
 }

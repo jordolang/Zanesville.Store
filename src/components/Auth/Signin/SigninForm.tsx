@@ -2,12 +2,14 @@
 
 import { useState } from "react";
 import { signIn } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
 
 export default function SigninForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackUrl = searchParams?.get("callbackUrl") ?? "/my-account";
   const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     email: "",
@@ -29,7 +31,7 @@ export default function SigninForm() {
         toast.error("Invalid email or password");
       } else {
         toast.success("Signed in successfully!");
-        router.push("/my-account");
+        router.push(callbackUrl);
         router.refresh();
       }
     } catch (error) {
