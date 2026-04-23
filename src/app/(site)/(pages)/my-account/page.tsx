@@ -1,17 +1,32 @@
 import MyAccount from "@/components/MyAccount";
-import React from "react";
+import { redirect } from "next/navigation";
+import { getServerSession } from "next-auth";
+import { authOptions, isAdminEmail } from "@/lib/auth";
+import type { Metadata } from "next";
 
-import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "My Account | Zanesville Store",
-  description: "This is My Account page for Zanesville Store",
-  // other metadata
+  description: "Manage your Zanesville Store account.",
 };
 
-const MyAccountPage = () => {
+const MyAccountPage = async () => {
+  const session = await getServerSession(authOptions);
+
+  if (!session?.user?.email) {
+    redirect("/signin?callbackUrl=/my-account");
+  }
+
   return (
     <main>
-      <MyAccount />
+      <MyAccount
+        user={{
+          name: session.user.name ?? null,
+          email: session.user.email,
+          image: session.user.image ?? null,
+          role: (session.user as { role?: string }).role ?? "user",
+          isAdmin: isAdminEmail(session.user.email),
+        }}
+      />
     </main>
   );
 };
