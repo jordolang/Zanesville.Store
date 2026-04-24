@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma migrate deploy && next build",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
@@ -25,9 +25,9 @@
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "10.4.15",
     "bcryptjs": "^3.0.3",
-    "next": "15.5.14",
+    "next": "15.5.15",
     "next-auth": "^4.24.13",
-    "nodemailer": "^7.0.13",
+    "nodemailer": "^8.0.5",
     "postcss": "8.5.8",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -56,5 +56,9 @@
   },
   "prisma": {
     "seed": "tsx prisma/seed-unified.ts"
+  },
+  "overrides": {
+    "nodemailer": "^8.0.5",
+    "uuid": "^14.0.0"
   }
 }
