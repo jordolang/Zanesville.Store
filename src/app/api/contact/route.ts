@@ -19,6 +19,8 @@ type ValidatedContact = {
 };
 
 const MAX_FIELD_LENGTH = 1000;
+const MAX_EMAIL_LENGTH = 254;
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function asString(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
@@ -34,7 +36,8 @@ function validate(payload: ContactPayload): ValidatedContact | string {
 
   if (!firstName || !lastName) return "First and last name are required.";
   if (!email) return "Email is required.";
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return "Email is invalid.";
+  if (email.length > MAX_EMAIL_LENGTH || !EMAIL_REGEX.test(email))
+    return "Email is invalid.";
   if (!message) return "Message is required.";
 
   const fields = { firstName, lastName, email, phone, subject, message };

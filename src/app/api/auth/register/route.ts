@@ -3,6 +3,7 @@ import prisma from "@/lib/prisma";
 import bcrypt from "bcryptjs";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const MAX_EMAIL_LENGTH = 254;
 
 interface RegisterBody {
   email?: unknown;
@@ -29,7 +30,7 @@ export async function POST(request: Request) {
       ? body.name.trim()
       : null;
 
-  if (!email || !EMAIL_REGEX.test(email)) {
+  if (!email || email.length > MAX_EMAIL_LENGTH || !EMAIL_REGEX.test(email)) {
     return NextResponse.json(
       { error: "A valid email is required." },
       { status: 400 },

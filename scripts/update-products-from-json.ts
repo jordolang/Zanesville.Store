@@ -36,6 +36,26 @@ function parseArgs(): { limit: number | null; dryRun: boolean } {
   return { limit, dryRun };
 }
 
+const ALLOWED_IMAGE_HOST_SUFFIXES = [
+  ".amazon.com",
+  ".media-amazon.com",
+  ".ssl-images-amazon.com",
+];
+
+function isAllowedAmazonImageUrl(url: string): boolean {
+  let parsed: URL;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return false;
+  }
+  if (parsed.protocol !== "https:" && parsed.protocol !== "http:") return false;
+  const host = parsed.hostname.toLowerCase();
+  return ALLOWED_IMAGE_HOST_SUFFIXES.some(
+    (suffix) => host === suffix.slice(1) || host.endsWith(suffix),
+  );
+}
+
 function parsePrice(priceStr: string): number | null {
   if (!priceStr) return null;
   const cleaned = priceStr.replace(/[^0-9.]/g, "");
@@ -112,9 +132,7 @@ async function main() {
 
   for (const item of toProcess) {
     const { product } = item.jsonData;
-    const images = product.images.filter(
-      (url) => url.startsWith("http") && url.includes("amazon.com")
-    );
+    const images = product.images.filter(isAllowedAmazonImageUrl);
 
     if (images.length === 0) {
       console.log(`  SKIP [${item.asin}] ${item.title.slice(0, 60)} - no valid images`);
