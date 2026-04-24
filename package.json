@@ -14,7 +14,7 @@
     "db:seed": "prisma db seed",
     "db:seed:enhanced": "tsx prisma/seed-enhanced.ts",
     "db:seed:unified": "tsx prisma/seed-unified.ts",
-    "db:create-admin": "tsx scripts/create-admin.ts"
+    "db:create-admin": "tsx --env-file=.env.local --env-file-if-exists=.env scripts/create-admin.ts"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.1",
