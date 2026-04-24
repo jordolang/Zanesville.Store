@@ -21,6 +21,21 @@ export default function SigninForm() {
     setIsLoading(true);
 
     try {
+      const verifyRes = await fetch("/api/auth/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: formData.email,
+          password: formData.password,
+        }),
+      });
+      const { valid } = (await verifyRes.json()) as { valid: boolean };
+
+      if (!valid) {
+        toast.error("Invalid email or password");
+        return;
+      }
+
       const result = await signIn("credentials", {
         email: formData.email,
         password: formData.password,

@@ -1,5 +1,4 @@
 "use client";
-import { useState, useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import "../css/euclid-circular-a-font.css";
 import "../css/style.css";
@@ -17,47 +16,34 @@ import AuthProvider from "@/components/Common/AuthProvider";
 import DemoBanner from "@/components/Common/DemoBanner";
 
 import ScrollToTop from "@/components/Common/ScrollToTop";
-import PreLoader from "@/components/Common/PreLoader";
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const [loading, setLoading] = useState<boolean>(true);
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
-  }, []);
-
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body>
-        {loading ? (
-          <PreLoader />
-        ) : (
-          <>
-            <AuthProvider>
-              <ReduxProvider>
-                <CartModalProvider>
-                  <ModalProvider>
-                    <PreviewSliderProvider>
-                      <DemoBanner />
-                      <Header />
-                      {children}
+        <AuthProvider>
+          <ReduxProvider>
+            <CartModalProvider>
+              <ModalProvider>
+                <PreviewSliderProvider>
+                  <DemoBanner />
+                  <Header />
+                  {children}
 
-                      <QuickViewModal />
-                      <CartSidebarModal />
-                      <PreviewSliderModal />
-                    </PreviewSliderProvider>
-                  </ModalProvider>
-                </CartModalProvider>
-              </ReduxProvider>
-            </AuthProvider>
-            <ScrollToTop />
-            <Footer />
-          </>
-        )}
+                  <QuickViewModal />
+                  <CartSidebarModal />
+                  <PreviewSliderModal />
+                </PreviewSliderProvider>
+              </ModalProvider>
+            </CartModalProvider>
+          </ReduxProvider>
+        </AuthProvider>
+        <ScrollToTop />
+        <Footer />
         <Analytics />
       </body>
     </html>
