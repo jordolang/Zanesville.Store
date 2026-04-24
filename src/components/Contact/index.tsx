@@ -99,10 +99,10 @@ const Contact = () => {
                   <p className="flex items-center gap-3">
                     <span className="font-semibold w-20">Phone:</span>
                     <a
-                      href="tel:+17408196592"
+                      href="tel:+17406472461"
                       className="text-blue hover:underline"
                     >
-                      (740) 819-6592
+                      (740) 647-2461
                     </a>
                   </p>
 
@@ -130,10 +130,10 @@ const Contact = () => {
 
                 <div className="mt-7.5 flex flex-col gap-3">
                   <a
-                    href="tel:+17408196592"
+                    href="tel:+17406472461"
                     className="w-full inline-flex items-center justify-center gap-2 font-medium text-white bg-blue py-3 px-5 rounded-md ease-out duration-200 hover:bg-blue-dark"
                   >
-                    Call Now: (740) 819-6592
+                    Call Now: (740) 647-2461
                   </a>
                   <a
                     href="mailto:jordan@Jlang.dev"

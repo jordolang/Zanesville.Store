@@ -38,10 +38,10 @@ const DemoBanner: React.FC = () => {
           online checkout won&apos;t actually charge or ship anything. To
           buy, call{" "}
           <a
-            href="tel:+17408196592"
+            href="tel:+17406472461"
             className="underline underline-offset-2 hover:text-blue"
           >
-            (740) 819-6592
+            (740) 647-2461
           </a>{" "}
           or{" "}
           <a

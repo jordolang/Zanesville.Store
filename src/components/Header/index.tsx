@@ -125,7 +125,7 @@ const Header = () => {
           {/* <!-- header top right --> */}
           <div className="flex w-full lg:w-auto items-center gap-7.5">
             <a
-              href="tel:+17408196592"
+              href="tel:+17406472461"
               className="hidden xl:flex items-center gap-3.5 hover:text-blue transition-colors"
               aria-label="Call Zanesville Store"
             >
@@ -159,7 +159,7 @@ const Header = () => {
                   CALL JORDAN
                 </span>
                 <p className="font-medium text-custom-sm text-dark">
-                  (740) 819-6592
+                  (740) 647-2461
                 </p>
               </div>
             </a>
