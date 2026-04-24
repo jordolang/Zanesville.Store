@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import type { AdminProduct } from "@/lib/productCatalog";
 
@@ -30,6 +30,10 @@ const TABS: { id: FilterTab; label: string }[] = [
   { id: "sold", label: "Recently Sold" },
   { id: "all", label: "All" },
 ];
+
+const PAGE_SIZE_OPTIONS = [10, 25, 50] as const;
+type PageSize = (typeof PAGE_SIZE_OPTIONS)[number];
+const DEFAULT_PAGE_SIZE: PageSize = 25;
 
 function productToDraft(product: AdminProduct): Draft {
   return {
@@ -75,6 +79,8 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
   const [saveState, setSaveState] = useState<SaveState>({});
   const [globalError, setGlobalError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Record<number, boolean>>({});
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState<PageSize>(DEFAULT_PAGE_SIZE);
 
   const filtered = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -95,6 +101,20 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
     }
     return { active, sold, all: products.length };
   }, [products]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+
+  useEffect(() => {
+    setPage(1);
+  }, [tab, search, pageSize]);
+
+  useEffect(() => {
+    if (page > totalPages) setPage(totalPages);
+  }, [page, totalPages]);
+
+  const pageStart = (page - 1) * pageSize;
+  const pageEnd = Math.min(pageStart + pageSize, filtered.length);
+  const pageItems = filtered.slice(pageStart, pageEnd);
 
   const updateDraft = (id: number, field: keyof Draft, value: string) => {
     setDrafts((prev) => ({
@@ -297,7 +317,7 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
                   </td>
                 </tr>
               )}
-              {filtered.map((product) => {
+              {pageItems.map((product) => {
                 const draft = drafts[product.id];
                 const state = saveState[product.id] ?? "idle";
                 const isOpen = !!expanded[product.id];
@@ -562,6 +582,69 @@ const AdminProducts: React.FC<AdminProductsProps> = ({ initialProducts }) => {
               })}
             </tbody>
           </table>
+        </div>
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 px-4 py-3 border-t border-gray-3 bg-gray-1/40 text-sm">
+          <div className="flex items-center gap-2">
+            <label htmlFor="admin-page-size" className="text-dark-4">
+              Rows per page
+            </label>
+            <select
+              id="admin-page-size"
+              value={pageSize}
+              onChange={(e) => setPageSize(Number(e.target.value) as PageSize)}
+              className="rounded-md border border-gray-3 bg-white px-2 py-1 outline-none focus:ring-2 focus:ring-blue/20"
+            >
+              {PAGE_SIZE_OPTIONS.map((size) => (
+                <option key={size} value={size}>
+                  {size}
+                </option>
+              ))}
+            </select>
+            <span className="text-dark-4">
+              {filtered.length === 0
+                ? "0 of 0"
+                : `${pageStart + 1}–${pageEnd} of ${filtered.length}`}
+            </span>
+          </div>
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setPage(1)}
+              disabled={page <= 1}
+              className="px-2 py-1 rounded-md border border-gray-3 bg-white text-dark disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-1"
+              aria-label="First page"
+            >
+              «
+            </button>
+            <button
+              type="button"
+              onClick={() => setPage((p) => Math.max(1, p - 1))}
+              disabled={page <= 1}
+              className="px-3 py-1 rounded-md border border-gray-3 bg-white text-dark disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-1"
+            >
+              Previous
+            </button>
+            <span className="text-dark-4" aria-live="polite">
+              Page {page} of {totalPages}
+            </span>
+            <button
+              type="button"
+              onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+              disabled={page >= totalPages}
+              className="px-3 py-1 rounded-md border border-gray-3 bg-white text-dark disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-1"
+            >
+              Next
+            </button>
+            <button
+              type="button"
+              onClick={() => setPage(totalPages)}
+              disabled={page >= totalPages}
+              className="px-2 py-1 rounded-md border border-gray-3 bg-white text-dark disabled:opacity-40 disabled:cursor-not-allowed hover:bg-gray-1"
+              aria-label="Last page"
+            >
+              »
+            </button>
+          </div>
         </div>
       </div>
     </div>
