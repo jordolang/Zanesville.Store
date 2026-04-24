@@ -103,7 +103,7 @@ const ShopDetails = () => {
     <>
       <Breadcrumb title={"Shop Details"} pages={["shop details"]} />
 
-      {product.title === "" ? (
+      {!product || product.title === "" ? (
         "Please add product"
       ) : (
         <>
